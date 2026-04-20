@@ -36,6 +36,11 @@ Frameworks for building autonomous trading agents.
 | [Hummingbot](https://github.com/hummingbot/hummingbot) | Open-source crypto market making and trading bot framework | Python |
 | [Freqtrade](https://github.com/freqtrade/freqtrade) | Open-source crypto trading bot with strategy optimization | Python |
 | [Jesse](https://github.com/jesse-ai/jesse) | Advanced crypto trading framework with AI strategy support | Python |
+| [TradingAgents-Crypto](https://github.com/auronsun/TradingAgents-crypto) | Crypto-focused fork of TradingAgents with CoinGecko integration | Python |
+| [AI-CryptoTrader](https://github.com/N00Bception/AI-CryptoTrader) | Ensemble ML methods for crypto trading decisions | Python |
+| [Intelligent Trading Bot](https://github.com/asavinov/intelligent-trading-bot) | ML-based automated trading with feature engineering | Python |
+| [openFinclaw](https://github.com/misterGFCo/openFinclaw) | Self-hosted financial OpenClaw with CCXT (Hyperliquid, Binance, OKX, Bybit) | Python |
+| [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | Deep RL framework for automated trading (crypto + tradfi) | Python |
 
 ## OpenClaw Trading Skills
 
@@ -50,6 +55,16 @@ Plug-and-play trading skills for the OpenClaw agent platform.
 | [Quicknode](https://github.com/BankrBot/skills/tree/main/quicknode) | Quicknode | Blockchain RPC, token balances, gas estimation, tx status across chains |
 | [Alchemy](https://github.com/BankrBot/skills/tree/main/alchemy) | Alchemy | EVM JSON-RPC, token balances, NFTs, portfolio data, tx simulation |
 | [Hydrex](https://github.com/BankrBot/skills/tree/main/hydrex) | Hydrex | Liquidity pools on Base with auto-managed vaults |
+| [Hyperclaw](https://github.com/openclaw/skills/tree/main/hyperclaw) | OpenClaw | Hyperliquid data: funding rates, OI, order book, candles, market scan |
+| [Binance](https://github.com/openclaw/skills/tree/main/binance) | OpenClaw | Binance spot & futures trading with safety checks |
+| [Public](https://public.com/api/docs/templates/openclaw-agent-skill) | Public.com | Stocks, ETFs, options, crypto — commission-free |
+| [CryptoSkill](https://cryptoskill.org) | CryptoSkill | Unified skill hub: Binance, OKX, Bybit, Uniswap, Jupiter, Hyperliquid |
+| [Quant Trader](https://clawhub.ai/zhenstaff/quant-trader) | zhenstaff | Quantitative trading with backtest via CCXT/Binance |
+| [Auto Trading Strategy](https://clawhub.ai/863king/auto-trading-strategy) | 863king | Automated trading strategy collection |
+| [Trader](https://clawhub.ai/ivangdavila/trader) | ivangdavila | Market analysis, risk management, disciplined strategy execution |
+| [Polymarket Paper Trader](https://clawhub.ai/robotlearning123/polymarket-paper-trader) | robotlearning123 | Paper trading on Polymarket with portfolio tracking |
+| [Hyperliquid Trading](https://clawhub.ai/laplace0x/hyperliquid-trading) | Agent Laplace | Secure Hyperliquid perps trading via gateway API with risk enforcement |
+| [Smart Trading](https://openclawai.me/trading) | OpenClaw AI | Sub-second Hyperliquid execution with hardcoded risk guardrails |
 
 ## DEX & On-Chain Trading
 
@@ -97,6 +112,7 @@ Data sources and APIs for market analysis by agents.
 |--------|-----------|-----------|-----|
 | [CoinGecko](https://coingecko.com/api) | Prices, market cap, volume | Yes (30 calls/min) | REST |
 | [CoinGlass](https://coinglass.com) | Funding rates, OI, liquidations | Limited | REST |
+| [Hyperliquid API](https://docs.hyperliquid.xyz) | Perps data, order book, funding, OI, user state | Yes (free) | REST + WebSocket |
 | [DeFiLlama](https://defillama.com) | TVL, protocol revenue, yields | Yes (free) | REST |
 | [Glassnode](https://glassnode.com) | On-chain metrics (MVRV, SOPR) | Limited free | REST |
 | [Dune Analytics](https://dune.com) | Custom on-chain queries | Yes | SQL API |
