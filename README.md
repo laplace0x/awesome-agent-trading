@@ -41,6 +41,11 @@ Frameworks for building autonomous trading agents.
 | [Intelligent Trading Bot](https://github.com/asavinov/intelligent-trading-bot) | ML-based automated trading with feature engineering | Python |
 | [openFinclaw](https://github.com/misterGFCo/openFinclaw) | Self-hosted financial OpenClaw with CCXT (Hyperliquid, Binance, OKX, Bybit) | Python |
 | [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | Deep RL framework for automated trading (crypto + tradfi) | Python |
+| [Nunchi agent-cli](https://github.com/Nunchi-trade/agent-cli) | 14 strategies, APEX multi-slot orchestrator, REFLECT nightly review, MCP server | Python |
+| [Senpi Skills](https://github.com/Senpi-ai/senpi-skills) | 52 AI trading agents on Hyperliquid, tracks top 1000 traders via Hyperfeed | Python |
+| [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | Personal trading agent with persistent memory, self-evolving skills, 5-layer context compression | Python |
+| [NoFx](https://github.com/NoFxAiOS/nofx) | Personal AI trading assistant, any market, any model, pay with USDC | Python |
+| [OpenTrader](https://github.com/Open-Trader/opentrader) | Open-source crypto trading bot with DCA & GRID strategies, UI | TypeScript |
 
 ## OpenClaw Trading Skills
 
@@ -65,6 +70,9 @@ Plug-and-play trading skills for the OpenClaw agent platform.
 | [Polymarket Paper Trader](https://clawhub.ai/robotlearning123/polymarket-paper-trader) | robotlearning123 | Paper trading on Polymarket with portfolio tracking |
 | [Hyperliquid Trading](https://clawhub.ai/laplace0x/hyperliquid-trading) | Agent Laplace | Secure Hyperliquid perps trading via gateway API with risk enforcement |
 | [Smart Trading](https://openclawai.me/trading) | OpenClaw AI | Sub-second Hyperliquid execution with hardcoded risk guardrails |
+| [Whale Wallet Analysis](https://agentskills.so/skills/sanctifiedops-solana-skills-whale-wallet-analysis) | sanctifiedops | Solana whale wallet tracking with cluster detection |
+| [Binance Trading Signal](https://github.com/VoltAgent/awesome-agent-skills) | Binance | On-chain Smart Money buy/sell signals with price and exit rate data |
+| [perp-cli](https://github.com/hypurrquant/perp-cli) | hypurrquant | Multi-DEX perps CLI + MCP server (Hyperliquid, Pacifica, Lighter) |
 
 ## DEX & On-Chain Trading
 
@@ -103,6 +111,21 @@ Prediction market platforms accessible to AI agents.
 | [Polymarket](https://polymarket.com) | Polygon | CLOB API | Largest prediction market, Polyclaw skill available |
 | [Azuro](https://azuro.org) | Multi-chain | Smart contract | Decentralized prediction market protocol |
 | [Kalshi](https://kalshi.com) | Off-chain | API | Regulated US prediction market |
+
+## MCP Servers for Trading
+
+Model Context Protocol servers that provide trading capabilities to AI agents.
+
+| Server | Description | Protocol |
+|--------|-------------|----------|
+| [hyperliquid-mcp](https://github.com/edkdev/hyperliquid-mcp) | Full Hyperliquid trading: orders, positions, market data, bracket orders, agent mode | MCP |
+| [HYPERLIQUID-MCP-Server](https://github.com/6rz6/HYPERLIQUID-MCP-Server) | 8 trading tools for Hyperliquid: market data, account management, analytics | MCP |
+| [perp-cli](https://github.com/hypurrquant/perp-cli) | Multi-DEX perps CLI + MCP (Hyperliquid, Pacifica, Lighter), 18 MCP tools | MCP |
+| [CoinGecko MCP](https://docs.coingecko.com/docs/mcp-server) | Official CoinGecko MCP server for price & market data | MCP |
+| [CoinGeckoMCP](https://github.com/BlindVibeDev/CoinGeckoMCP) | Node.js CoinGecko MCP with free + Pro API support | MCP |
+| [mcp-coingecko-server](https://github.com/crazyrabbitLTC/mcp-coingecko-server) | CoinGecko Pro API MCP with OpenAI function calling compatibility | MCP |
+| [Binance MCP](https://github.com/nicepkg/binance-mcp) | Unofficial Binance MCP server for trading AI agents | MCP |
+| [financekit-mcp](https://github.com/vdalhambra/financekit-mcp) | 17 tools for financial market intelligence: quotes, technicals, analysis | MCP |
 
 ## Data & Market Intelligence
 
@@ -160,12 +183,15 @@ Academic and industry research on AI trading agents.
 - [AI-Trader: 100% Fully-Automated Agent-Native Trading](https://github.com/HKUDS/AI-Trader) — HKU, 2026
 - [TradingAgents: Multi-Agent LLM Financial Trading](https://github.com/TauricResearch/TradingAgents) — Tauric Research, 2026
 - [Agent-Fi: Autonomous Agents in DeFi](https://arxiv.org/abs/2502.02564) — Survey of agent-DeFi intersection
+- [Senpi: Real-money AI Trading Agent Fleet](https://github.com/Senpi-ai/senpi-skills) — 52 live agents, Hyperfeed data layer, 2026
+- [Nunchi: Multi-Strategy Agent Trading](https://github.com/Nunchi-trade/agent-cli) — 14 strategies, risk governance, MCP, 2026
 
 ## Tutorials & Guides
 
 - [OpenClaw AI Trading Skills: Complete 2026 Guide](https://aurpay.net/aurspace/openclaw-ai-trading-skills-complete-guide-2026/) — Setup, risks, and real numbers
 - [How to Build an Autonomous Trading Agent with Python](https://dev.to/alex_mercer/how-to-build-an-autonomous-trading-agent-with-python-in-2026-pap) — Dev.to, 2026
 - [Build a Crypto AI Agent with CoinGecko API](https://www.coingecko.com/learn/build-crypto-ai-agent) — CoinGecko
+- [How to Build an OpenClaw AI Crypto Trading Agent](https://www.coingecko.com/learn/openclaw-crypto-trading-bot) — CoinGecko + OpenClaw, 4 strategies with backtesting
 - [OpenClaw Trading: Crypto, DeFi, and Polymarket Skills](https://boilerplatehub.com/blog/openclaw-trading) — BoilerplateHub
 
 ## Communities
