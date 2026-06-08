@@ -153,6 +153,7 @@ On-chain identity and reputation systems for trading agents.
 | [Helixa](https://helixa.xyz) | Agent identity + Cred Score on Base | Base |
 | [ERC-6551](https://eip6551.org) | Token-bound accounts (agent NFT owns wallet) | EVM |
 | [SIWA (ERC-8128)](https://github.com/BankrBot/skills/tree/main/siwa) | Sign-In With Agent authentication | EVM |
+| [TWZRD Agent Intel](https://intel.twzrd.xyz) | On-chain behavioral trust scoring for Solana agent wallets. Score + preflight free; signed trust receipt via x402 | Solana |
 
 ## Payment Protocols
 
