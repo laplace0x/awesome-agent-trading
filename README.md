@@ -111,6 +111,7 @@ Prediction market platforms accessible to AI agents.
 | [Polymarket](https://polymarket.com) | Polygon | CLOB API | Largest prediction market, Polyclaw skill available |
 | [Azuro](https://azuro.org) | Multi-chain | Smart contract | Decentralized prediction market protocol |
 | [Kalshi](https://kalshi.com) | Off-chain | API | Regulated US prediction market |
+| [TurbineFi](https://turbinefi.com) | Off-chain | Web app | Build, backtest, and deploy automated strategies for Kalshi and Polymarket |
 
 ## MCP Servers for Trading
 
