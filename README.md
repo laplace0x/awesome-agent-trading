@@ -142,6 +142,7 @@ Data sources and APIs for market analysis by agents.
 | [Arkham Intelligence](https://arkham.io) | Wallet tracking, entity labeling | Limited | REST |
 | [Alternative.me](https://alternative.me) | Fear & Greed Index | Yes | REST |
 | [The Graph](https://thegraph.com) | Indexed blockchain data | Yes | GraphQL |
+| [AgentServices](https://agentservices.to) | 54 services: prices, DeFi, onchain, analytics, dispute resolution | Yes (x402 micropayments) | REST + MCP |
 
 ## Agent Identity & Trust
 
