@@ -144,6 +144,7 @@ Data sources and APIs for market analysis by agents.
 | [Alternative.me](https://alternative.me) | Fear & Greed Index | Yes | REST |
 | [The Graph](https://thegraph.com) | Indexed blockchain data | Yes | GraphQL |
 | [AgentServices](https://agentservices.to) | 54 services: prices, DeFi, onchain, analytics, dispute resolution | Yes (x402 micropayments) | REST + MCP |
+| [Congress Trading Pipeline](https://github.com/seralifatih/congress-trading-pipeline) | US House & Senate STOCK Act trade disclosures (PTRs) | Yes (Apify free credit) | REST |
 
 ## Agent Identity & Trust
 
