@@ -2,7 +2,7 @@
 
 > AI trading agents, MCP servers, OpenClaw skills, crypto bots, prediction market tools, data APIs, and risk-management resources.
 
-Canonical site: https://laplace0x.github.io/awesome-agent-trading/
+Canonical site: http://laplaceagent.com/awesome-agent-trading/
 GitHub repository: https://github.com/laplace0x/awesome-agent-trading
 Machine-readable data: https://github.com/laplace0x/awesome-agent-trading/blob/main/data/projects.json
 
