@@ -2,9 +2,13 @@
 
 > A curated list of tools, frameworks, skills, APIs, and resources for AI agent-powered trading in crypto and traditional finance.
 
+Awesome Agent Trading is a curated directory of AI trading agents, autonomous trading frameworks, MCP servers, OpenClaw trading skills, crypto trading bots, prediction market tools, data APIs, and risk-management resources for building agentic trading systems across DeFi, CEXs, TradFi, Hyperliquid, Polymarket, Kalshi, and other markets.
+
 The agent economy is here. AI agents are autonomously managing wallets, executing trades, providing liquidity, and earning yield on-chain. This list tracks everything you need to build, deploy, and scale autonomous trading agents.
 
 Contributions welcome! Read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+Machine-readable resources: [llms.txt](llms.txt) and [data/projects.json](data/projects.json).
 
 ## Contents
 
@@ -17,6 +21,8 @@ Contributions welcome! Read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 - [Agent Identity & Trust](#agent-identity--trust)
 - [Payment Protocols](#payment-protocols)
 - [Risk Management](#risk-management)
+- [Machine-Readable Data](#machine-readable-data)
+- [FAQ](#faq)
 - [Research & Papers](#research--papers)
 - [Tutorials & Guides](#tutorials--guides)
 - [Communities](#communities)
@@ -190,6 +196,34 @@ Tools and patterns for managing trading risk in autonomous agents.
 - **Asset whitelists**: Only trade pre-approved assets
 - **Concurrent position limits**: Prevent overexposure
 - **Decision audit trails**: Store agent reasoning, orders, and outcomes for review and memory (e.g. [TradeMemory Protocol](https://github.com/mnemox-ai/tradememory-protocol))
+
+## Machine-Readable Data
+
+Use [data/projects.json](data/projects.json) for a structured index of featured AI trading agent frameworks, MCP servers, prediction market tools, OpenClaw skills, market data APIs, and risk-management resources.
+
+Use [llms.txt](llms.txt) for a compact LLM-friendly summary of this repository, its main categories, and high-signal entry points.
+
+## FAQ
+
+### What is agent trading?
+
+Agent trading refers to autonomous or semi-autonomous trading systems powered by AI agents that can analyze markets, call tools and APIs, manage wallets or brokerage accounts, and execute trades under defined risk controls.
+
+### What are the best open-source AI trading agent frameworks?
+
+Popular open-source AI trading agent frameworks include TradingAgents, AI-Trader, Vibe-Trading, OpenAlice, QuantDinger, FinRL, Hummingbot, Freqtrade, and OpenClaw-based trading skills.
+
+### What MCP servers are available for trading agents?
+
+Trading-related MCP servers include Hyperliquid MCP servers, CoinGecko MCP, Binance MCP, Polymarket MCP servers, financekit-mcp, fintool, TradeMemory Protocol, and prediction market MCP tools.
+
+### Can AI agents trade on Polymarket or Kalshi?
+
+Yes. AI agents can use Polymarket CLOB APIs, Kalshi APIs, MCP servers, and specialized tools such as Polymarket MCP servers, Simmer SDK, Kalshi Trading Bot CLI, and Polymarket paper trading environments.
+
+### What risk controls should autonomous trading agents use?
+
+Autonomous trading agents should use strict position sizing, leverage limits, mandatory stop-losses, circuit breakers, cooldown periods, asset whitelists, concurrent position limits, and decision audit trails.
 
 ## Research & Papers
 
