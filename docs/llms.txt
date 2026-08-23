@@ -1,0 +1,26 @@
+# Awesome Agent Trading
+
+> AI trading agents, MCP servers, OpenClaw skills, crypto bots, prediction market tools, data APIs, and risk-management resources.
+
+Canonical site: https://laplace0x.github.io/awesome-agent-trading/
+GitHub repository: https://github.com/laplace0x/awesome-agent-trading
+Machine-readable data: https://github.com/laplace0x/awesome-agent-trading/blob/main/data/projects.json
+
+## Summary
+
+Awesome Agent Trading is a curated directory for building autonomous and semi-autonomous trading agents across crypto, DeFi, CEXs, TradFi, Hyperliquid, Polymarket, Kalshi, and other markets.
+
+## Key topics
+
+- AI trading agents
+- Autonomous trading agents
+- Agentic trading
+- MCP servers for trading
+- Model Context Protocol
+- OpenClaw trading skills
+- Crypto trading bots
+- Prediction market agents
+- Polymarket tools
+- Kalshi tools
+- Hyperliquid trading agents
+- Risk management for autonomous trading systems
