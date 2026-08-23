@@ -1,0 +1,236 @@
+[
+  {
+    "name": "OpenClaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "category": "Agent Frameworks",
+    "description": "Open-source AI agent platform with skill system, cron jobs, and multi-channel output.",
+    "language": "Node.js",
+    "markets": ["crypto", "defi", "tradfi"],
+    "tags": ["ai-agent", "agent-framework", "skills", "automation"]
+  },
+  {
+    "name": "TradingAgents",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "category": "Agent Frameworks",
+    "description": "Multi-agent LLM financial trading framework for stock analysis and portfolio management.",
+    "language": "Python",
+    "markets": ["stocks", "tradfi"],
+    "tags": ["multi-agent", "llm", "stock-analysis", "portfolio-management"]
+  },
+  {
+    "name": "AI-Trader",
+    "url": "https://github.com/HKUDS/AI-Trader",
+    "category": "Agent Frameworks",
+    "description": "Fully automated agent-native trading system.",
+    "language": "Python",
+    "markets": ["stocks", "tradfi", "crypto"],
+    "tags": ["ai-trading", "agent-native", "automation"]
+  },
+  {
+    "name": "Vibe-Trading",
+    "url": "https://github.com/HKUDS/Vibe-Trading",
+    "category": "Agent Frameworks",
+    "description": "Personal trading agent with persistent memory, self-evolving skills, and context compression.",
+    "language": "Python",
+    "markets": ["stocks", "crypto", "tradfi"],
+    "tags": ["personal-agent", "memory", "self-evolving", "llm"]
+  },
+  {
+    "name": "OpenAlice",
+    "url": "https://github.com/TraderAlice/OpenAlice",
+    "category": "Agent Frameworks",
+    "description": "AI trading agent covering equities, crypto, commodities, forex, and macro from research to execution and position management.",
+    "language": "TypeScript",
+    "markets": ["stocks", "crypto", "commodities", "forex", "macro"],
+    "tags": ["ai-trading-agent", "research", "execution", "position-management"]
+  },
+  {
+    "name": "QuantDinger",
+    "url": "https://github.com/OpenByteInc/QuantDinger",
+    "category": "Agent Frameworks",
+    "description": "AI quantitative trading platform with backtesting, live trading, market data, and multi-agent research.",
+    "language": "Python",
+    "markets": ["crypto", "stocks", "forex"],
+    "tags": ["quant-trading", "backtesting", "live-trading", "multi-agent"]
+  },
+  {
+    "name": "CloddsBot",
+    "url": "https://github.com/alsk1992/CloddsBot",
+    "category": "Agent Frameworks",
+    "description": "Self-hosted AI trading agent across Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, and EVM chains.",
+    "language": "TypeScript",
+    "markets": ["prediction-markets", "crypto", "defi", "cex"],
+    "tags": ["self-hosted", "polymarket", "kalshi", "hyperliquid", "binance"]
+  },
+  {
+    "name": "Hummingbot",
+    "url": "https://github.com/hummingbot/hummingbot",
+    "category": "Agent Frameworks",
+    "description": "Open-source crypto market making and trading bot framework.",
+    "language": "Python",
+    "markets": ["crypto", "cex", "defi"],
+    "tags": ["market-making", "trading-bot", "crypto"]
+  },
+  {
+    "name": "Freqtrade",
+    "url": "https://github.com/freqtrade/freqtrade",
+    "category": "Agent Frameworks",
+    "description": "Open-source crypto trading bot with strategy optimization.",
+    "language": "Python",
+    "markets": ["crypto", "cex"],
+    "tags": ["trading-bot", "strategy-optimization", "backtesting"]
+  },
+  {
+    "name": "FinRL",
+    "url": "https://github.com/AI4Finance-Foundation/FinRL",
+    "category": "Agent Frameworks",
+    "description": "Deep reinforcement learning framework for automated trading in crypto and traditional finance.",
+    "language": "Python",
+    "markets": ["crypto", "tradfi", "stocks"],
+    "tags": ["reinforcement-learning", "automated-trading", "finance"]
+  },
+  {
+    "name": "Hyperliquid Trading",
+    "url": "https://clawhub.ai/laplace0x/hyperliquid-trading",
+    "category": "OpenClaw Trading Skills",
+    "description": "Secure Hyperliquid perpetuals trading skill via gateway API with risk enforcement.",
+    "language": null,
+    "markets": ["crypto", "perpetuals", "hyperliquid"],
+    "tags": ["openclaw", "hyperliquid", "perps", "risk-management"]
+  },
+  {
+    "name": "perp-cli",
+    "url": "https://github.com/hypurrquant/perp-cli",
+    "category": "OpenClaw Trading Skills",
+    "description": "Multi-DEX perpetuals CLI and MCP server for Hyperliquid, Pacifica, and Lighter.",
+    "language": null,
+    "markets": ["crypto", "perpetuals", "defi"],
+    "tags": ["mcp", "cli", "hyperliquid", "perps"]
+  },
+  {
+    "name": "Polymarket",
+    "url": "https://polymarket.com",
+    "category": "Prediction Markets",
+    "description": "Prediction market platform on Polygon with CLOB API access.",
+    "language": null,
+    "markets": ["prediction-markets"],
+    "tags": ["polymarket", "clob", "polygon"]
+  },
+  {
+    "name": "Kalshi",
+    "url": "https://kalshi.com",
+    "category": "Prediction Markets",
+    "description": "Regulated US prediction market with API access.",
+    "language": null,
+    "markets": ["prediction-markets"],
+    "tags": ["kalshi", "regulated", "api"]
+  },
+  {
+    "name": "Kalshi Trading Bot CLI",
+    "url": "https://github.com/OctagonAI/kalshi-trading-bot-cli",
+    "category": "Prediction Markets",
+    "description": "AI-native Kalshi trading CLI with probability estimates, order book edge, Kelly sizing, and risk gates.",
+    "language": "TypeScript",
+    "markets": ["prediction-markets", "kalshi"],
+    "tags": ["cli", "kelly-sizing", "risk-gates", "ai-trading"]
+  },
+  {
+    "name": "hyperliquid-mcp",
+    "url": "https://github.com/edkdev/hyperliquid-mcp",
+    "category": "MCP Servers for Trading",
+    "description": "Hyperliquid MCP server for orders, positions, market data, bracket orders, and agent mode.",
+    "language": null,
+    "markets": ["crypto", "hyperliquid", "perpetuals"],
+    "tags": ["mcp", "model-context-protocol", "hyperliquid", "orders"]
+  },
+  {
+    "name": "CoinGecko MCP",
+    "url": "https://docs.coingecko.com/docs/mcp-server",
+    "category": "MCP Servers for Trading",
+    "description": "Official CoinGecko MCP server for cryptocurrency price and market data.",
+    "language": null,
+    "markets": ["crypto"],
+    "tags": ["mcp", "market-data", "coingecko", "prices"]
+  },
+  {
+    "name": "Binance MCP",
+    "url": "https://github.com/nicepkg/binance-mcp",
+    "category": "MCP Servers for Trading",
+    "description": "Unofficial Binance MCP server for trading AI agents.",
+    "language": null,
+    "markets": ["crypto", "cex"],
+    "tags": ["mcp", "binance", "trading-api"]
+  },
+  {
+    "name": "polymarket-mcp-server",
+    "url": "https://github.com/caiovicentino/polymarket-mcp-server",
+    "category": "MCP Servers for Trading",
+    "description": "Polymarket MCP server with trading, market discovery, monitoring, and safety tools.",
+    "language": "Python",
+    "markets": ["prediction-markets", "polymarket"],
+    "tags": ["mcp", "polymarket", "market-discovery", "safety"]
+  },
+  {
+    "name": "fintool",
+    "url": "https://github.com/second-state/fintool",
+    "category": "MCP Servers for Trading",
+    "description": "Rust CLI tools for agentic trading across Hyperliquid, Binance, Coinbase, OKX, Polymarket, and market intelligence.",
+    "language": "Rust",
+    "markets": ["crypto", "stocks", "commodities", "prediction-markets"],
+    "tags": ["cli", "mcp", "market-intelligence", "agentic-trading"]
+  },
+  {
+    "name": "TradeMemory Protocol",
+    "url": "https://github.com/mnemox-ai/tradememory-protocol",
+    "category": "MCP Servers for Trading",
+    "description": "Decision audit trail and persistent memory for AI trading agents with outcome-weighted recall and MCP tools.",
+    "language": "Python",
+    "markets": ["crypto", "tradfi", "prediction-markets"],
+    "tags": ["mcp", "memory", "audit-trail", "risk-management"]
+  },
+  {
+    "name": "Simmer SDK",
+    "url": "https://github.com/SpartanLabsXyz/simmer-sdk",
+    "category": "MCP Servers for Trading",
+    "description": "Prediction market harness for AI agents with skills, MCP server, and Python SDK.",
+    "language": "Python",
+    "markets": ["prediction-markets"],
+    "tags": ["mcp", "sdk", "prediction-market", "agent-harness"]
+  },
+  {
+    "name": "Hyperliquid API",
+    "url": "https://docs.hyperliquid.xyz",
+    "category": "Data & Market Intelligence",
+    "description": "Perpetuals market data, order book, funding, open interest, and user state APIs.",
+    "language": null,
+    "markets": ["crypto", "hyperliquid", "perpetuals"],
+    "tags": ["market-data", "rest-api", "websocket", "perps"]
+  },
+  {
+    "name": "DeFiLlama",
+    "url": "https://defillama.com",
+    "category": "Data & Market Intelligence",
+    "description": "DeFi TVL, protocol revenue, and yield data.",
+    "language": null,
+    "markets": ["crypto", "defi"],
+    "tags": ["market-data", "defi", "tvl", "yield"]
+  },
+  {
+    "name": "ERC-8004",
+    "url": "https://8004.org",
+    "category": "Agent Identity & Trust",
+    "description": "On-chain agent identity and verifiable reputation standard.",
+    "language": null,
+    "markets": ["crypto", "defi"],
+    "tags": ["agent-identity", "reputation", "on-chain", "trust"]
+  },
+  {
+    "name": "x402",
+    "url": "https://x402.org",
+    "category": "Payment Protocols",
+    "description": "HTTP micropayments protocol for pay-per-query signal APIs and agent commerce.",
+    "language": null,
+    "markets": ["crypto", "agent-commerce"],
+    "tags": ["payments", "micropayments", "agent-commerce", "signals"]
+  }
+]
