@@ -46,6 +46,10 @@ Frameworks for building autonomous trading agents.
 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | Personal trading agent with persistent memory, self-evolving skills, 5-layer context compression | Python |
 | [NoFx](https://github.com/NoFxAiOS/nofx) | Personal AI trading assistant, any market, any model, pay with USDC | Python |
 | [OpenTrader](https://github.com/Open-Trader/opentrader) | Open-source crypto trading bot with DCA & GRID strategies, UI | TypeScript |
+| [OpenAlice](https://github.com/TraderAlice/OpenAlice) | AI trading agent covering equities, crypto, commodities, forex, and macro from research to execution and position management | TypeScript |
+| [QuantDinger](https://github.com/OpenByteInc/QuantDinger) | AI quantitative trading platform with backtesting, live trading, market data, and multi-agent research | Python |
+| [CloddsBot](https://github.com/alsk1992/CloddsBot) | Self-hosted AI trading agent across Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, and EVM chains | TypeScript |
+| [moss-trade-bot-skills](https://github.com/moss-site/moss-trade-bot-skills) | LLM-powered trading skills that turn natural language into backtest/live-aligned Hyperliquid perps strategies | Python |
 
 ## OpenClaw Trading Skills
 
@@ -73,6 +77,7 @@ Plug-and-play trading skills for the OpenClaw agent platform.
 | [Whale Wallet Analysis](https://agentskills.so/skills/sanctifiedops-solana-skills-whale-wallet-analysis) | sanctifiedops | Solana whale wallet tracking with cluster detection |
 | [Binance Trading Signal](https://github.com/VoltAgent/awesome-agent-skills) | Binance | On-chain Smart Money buy/sell signals with price and exit rate data |
 | [perp-cli](https://github.com/hypurrquant/perp-cli) | hypurrquant | Multi-DEX perps CLI + MCP server (Hyperliquid, Pacifica, Lighter) |
+| [Superior Trade Skills](https://github.com/Superior-Trade/superior-skills) | Superior Trade | Open agent skills and tool schemas for building, backtesting, and deploying Hyperliquid strategies |
 
 ## DEX & On-Chain Trading
 
@@ -112,6 +117,7 @@ Prediction market platforms accessible to AI agents.
 | [Azuro](https://azuro.org) | Multi-chain | Smart contract | Decentralized prediction market protocol |
 | [Kalshi](https://kalshi.com) | Off-chain | API | Regulated US prediction market |
 | [TurbineFi](https://turbinefi.com) | Off-chain | Web app | Build, backtest, and deploy automated strategies for Kalshi and Polymarket |
+| [Kalshi Trading Bot CLI](https://github.com/OctagonAI/kalshi-trading-bot-cli) | Off-chain | API + CLI | AI-native Kalshi trading CLI with probability estimates, order book edge, Kelly sizing, and risk gates |
 
 ## MCP Servers for Trading
 
@@ -127,6 +133,10 @@ Model Context Protocol servers that provide trading capabilities to AI agents.
 | [mcp-coingecko-server](https://github.com/crazyrabbitLTC/mcp-coingecko-server) | CoinGecko Pro API MCP with OpenAI function calling compatibility | MCP |
 | [Binance MCP](https://github.com/nicepkg/binance-mcp) | Unofficial Binance MCP server for trading AI agents | MCP |
 | [financekit-mcp](https://github.com/vdalhambra/financekit-mcp) | 17 tools for financial market intelligence: quotes, technicals, analysis | MCP |
+| [polymarket-mcp-server](https://github.com/caiovicentino/polymarket-mcp-server) | Polymarket MCP server with trading, market discovery, monitoring, and safety tools | MCP |
+| [fintool](https://github.com/second-state/fintool) | Rust CLI tools for agentic trading across Hyperliquid, Binance, Coinbase, OKX, Polymarket, and market intelligence | CLI / MCP |
+| [TradeMemory Protocol](https://github.com/mnemox-ai/tradememory-protocol) | Decision audit trail and persistent memory for AI trading agents with outcome-weighted recall and MCP tools | MCP |
+| [Simmer SDK](https://github.com/SpartanLabsXyz/simmer-sdk) | Prediction market harness for AI agents with skills, MCP server, and Python SDK | MCP / SDK |
 
 ## Data & Market Intelligence
 
@@ -179,6 +189,7 @@ Tools and patterns for managing trading risk in autonomous agents.
 - **Cooldown periods**: Enforced rest after losing trades
 - **Asset whitelists**: Only trade pre-approved assets
 - **Concurrent position limits**: Prevent overexposure
+- **Decision audit trails**: Store agent reasoning, orders, and outcomes for review and memory (e.g. [TradeMemory Protocol](https://github.com/mnemox-ai/tradememory-protocol))
 
 ## Research & Papers
 
