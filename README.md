@@ -10,8 +10,6 @@ Contributions welcome! Read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 Machine-readable resources: [llms.txt](llms.txt) and [data/projects.json](data/projects.json).
 
-SEO landing page source: [docs/index.html](docs/index.html). Publish it with GitHub Pages using the `main` branch and `/docs` folder.
-
 ## Contents
 
 - [Agent Frameworks](#agent-frameworks)
