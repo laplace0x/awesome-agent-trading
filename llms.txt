@@ -1,0 +1,32 @@
+# Awesome Agent Trading
+
+> Curated directory of AI agent trading frameworks, MCP servers, OpenClaw trading skills, crypto trading bots, prediction market tools, market data APIs, and risk-management resources.
+
+Awesome Agent Trading tracks tools for building autonomous or semi-autonomous trading agents across crypto, DeFi, CEXs, TradFi, Hyperliquid, Polymarket, Kalshi, and other markets.
+
+## Main resources
+
+- README: https://github.com/laplace0x/awesome-agent-trading/blob/main/README.md
+- Machine-readable project data: https://github.com/laplace0x/awesome-agent-trading/blob/main/data/projects.json
+- Contributing guide: https://github.com/laplace0x/awesome-agent-trading/blob/main/CONTRIBUTING.md
+
+## Main categories
+
+- Agent Frameworks: AI trading agent frameworks, autonomous trading systems, quant frameworks, and LLM-based trading platforms.
+- OpenClaw Trading Skills: Plug-and-play trading skills for OpenClaw and related agent skill systems.
+- DEX & On-Chain Trading: Decentralized exchanges, perpetuals venues, aggregators, and on-chain execution infrastructure.
+- CEX & Off-Chain Trading: Centralized exchange APIs and broker/trading venues suitable for automation.
+- Prediction Markets: Polymarket, Kalshi, and related prediction market tools for AI agents.
+- MCP Servers for Trading: Model Context Protocol servers that expose trading, market data, memory, and research tools to AI agents.
+- Data & Market Intelligence: Market data, on-chain analytics, macro data, wallet intelligence, and research APIs.
+- Agent Identity & Trust: Identity, reputation, and trust systems for autonomous trading agents.
+- Payment Protocols: Agent payments, micropayments, and agent commerce protocols.
+- Risk Management: Guardrails for position sizing, leverage, stop-losses, circuit breakers, whitelists, and audit trails.
+
+## High-signal topics
+
+AI trading agents, autonomous trading agents, agent trading, agentic trading, trading bots, crypto trading bots, algorithmic trading, quant trading, LLM agents, MCP servers, Model Context Protocol, OpenClaw, Hyperliquid, Polymarket, Kalshi, prediction markets, DeFi, CEX trading, TradFi automation, market data APIs, risk management.
+
+## Suggested citation
+
+Awesome Agent Trading: a curated list of tools, frameworks, skills, APIs, and resources for AI agent-powered trading in crypto and traditional finance.
