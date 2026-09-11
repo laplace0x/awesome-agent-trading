@@ -2,6 +2,16 @@
 
 Thank you for contributing! Here are the guidelines:
 
+## Scope and Evidence
+
+This directory serves English-speaking users building for US equities and options, global crypto and DeFi, and prediction markets such as Polymarket and Kalshi. Prioritize usable English documentation and integrations for these markets. Mainland-China-market-only tools are outside the current scope; the author's location is not a selection criterion.
+
+For new entries, describe the actual role and supported modes: research, backtest, paper trading, dry-run, or live execution. Do not treat a roadmap as a shipped feature, a dry-run as a fill simulator, or an author's performance claim as an independently verified result. Label official versus community integrations, experimental projects, hosted services, and source-available licenses explicitly. Note account, venue, and data-access requirements where relevant.
+
+Link to upstream documentation and a license source. If a license is only declared in a README or package manifest, say so; do not imply that a standalone license file was checked. Keep descriptions factual and avoid fixed strategy counts, unsourced returns, or universal position/leverage recommendations.
+
+`data/projects.json` is a featured subset. Add new featured entries there and keep descriptions consistent with the README. Include `modes`, `origin`, `license`, `license_source`, `notes`, `last_verified`, `verification`, and `sources` when reviewed. Use `upstream-documentation` for documentation-only reviews; leave unknown values explicit. Update `llms.txt`, `docs/llms.txt`, and website copy when categories or featured resources change.
+
 ## Adding a New Entry
 
 1. **Check if it already exists** — Search the README first
@@ -16,7 +26,7 @@ Thank you for contributing! Here are the guidelines:
 | [Name](URL) | Brief description | Key attribute |
 ```
 
-### For OpenClaw skills:
+### For agent skills:
 ```
 | [Skill Name](URL) | Author | Brief description |
 ```
@@ -25,6 +35,8 @@ Thank you for contributing! Here are the guidelines:
 
 - ✅ Open-source projects with active maintenance
 - ✅ APIs and SDKs accessible to autonomous agents
+- ✅ Official hosted broker/exchange integrations, with account and access requirements
+- ✅ Source-available tools when their license restrictions are clearly distinguished from open-source licenses
 - ✅ Agent-native protocols and standards
 - ✅ Well-documented tools with clear use cases
 - ✅ Academic papers and research
@@ -32,11 +44,13 @@ Thank you for contributing! Here are the guidelines:
 
 ## What We Don't Include
 
-- ❌ Closed-source, invite-only tools
+- ❌ Opaque, invite-only tools without usable public documentation or access details
 - ❌ Memecoins or specific token promotions
 - ❌ Unverified or scam projects
-- ❌ Paid-only services without free tiers
-- ❌ Abandoned projects (no updates in 6+ months)
+- ❌ Unexplained paid-service promotions; disclose required subscriptions and data fees
+- ❌ Archived or unavailable projects presented as active tools
+
+For projects with no code activity in six months, investigate maintenance before recommending them as active. Stable libraries and published research may still be useful; label research or historical references separately. Stars and GitHub `updated_at` alone are not evidence of maintenance.
 
 ## Submission Process
 

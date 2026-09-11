@@ -1,26 +1,33 @@
 # Awesome Agent Trading
 
-> AI trading agents, MCP servers, OpenClaw skills, crypto bots, prediction market tools, data APIs, and risk-management resources.
+> English-language directory of AI trading agents and tools for US equities and options, global crypto and DeFi, and prediction markets.
 
-Canonical site: http://laplaceagent.com/awesome-agent-trading/
-GitHub repository: https://github.com/laplace0x/awesome-agent-trading
-Machine-readable data: https://github.com/laplace0x/awesome-agent-trading/blob/main/data/projects.json
+## Resources
 
-## Summary
+- Repository: https://github.com/laplace0x/awesome-agent-trading
+- Full directory: https://github.com/laplace0x/awesome-agent-trading/blob/main/README.md
+- Featured data subset: https://github.com/laplace0x/awesome-agent-trading/blob/main/data/projects.json
+- Contribution criteria: https://github.com/laplace0x/awesome-agent-trading/blob/main/CONTRIBUTING.md
 
-Awesome Agent Trading is a curated directory for building autonomous and semi-autonomous trading agents across crypto, DeFi, CEXs, TradFi, Hyperliquid, Polymarket, Kalshi, and other markets.
+## Categories
 
-## Key topics
+- Trading Agents: agent decision and execution systems; experimental and source-available projects are labeled.
+- Broker & Exchange Integrations: official broker MCP services and exchange APIs, including Alpaca and Robinhood.
+- MCP Servers & Agent Skills: tool integrations and skills for supported clients, including OpenClaw.
+- Prediction Markets: Polymarket, Kalshi, CLIs, SDKs, and simulation tools.
+- Research & Backtesting: financial research agents, strategy engines, and backtest/paper/live runtimes.
+- Data, Wallets & Risk Infrastructure: market data, wallets, execution controls, identity, and payments.
 
-- AI trading agents
-- Autonomous trading agents
-- Agentic trading
-- MCP servers for trading
-- Model Context Protocol
-- OpenClaw trading skills
-- Crypto trading bots
-- Prediction market agents
-- Polymarket tools
-- Kalshi tools
-- Hyperliquid trading agents
-- Risk management for autonomous trading systems
+## Starting points
+
+- Alpaca MCP Server: https://github.com/alpacahq/alpaca-mcp-server
+- Alpaca Skills: https://github.com/alpacahq/alpaca-skills
+- Robinhood Agentic Trading: https://robinhood.com/us/en/support/articles/agentic-trading-overview/
+- OpenAlice: https://github.com/TraderAlice/OpenAlice
+- Polymarket CLI: https://github.com/Polymarket/polymarket-cli
+- Lumibot: https://github.com/Lumiwealth/lumibot
+- Coinbase AgentKit: https://github.com/coinbase/agentkit
+
+## Interpretation
+
+Account eligibility, venue availability, and data access vary. Research, backtesting, paper trading, dry-run, and live execution are distinct modes. Listings are not performance endorsements. New reviewed data entries include license sources and documentation-review dates; missing metadata on older entries means not reviewed. The JSON file is a featured subset, not the entire directory.
