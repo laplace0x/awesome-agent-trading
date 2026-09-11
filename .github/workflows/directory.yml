@@ -1,0 +1,22 @@
+name: Check directory
+on:
+  pull_request:
+    paths: ['data/projects.json', 'docs/**', 'scripts/build_directory.py', '.github/workflows/directory.yml']
+  push:
+    branches: [main]
+    paths: ['data/projects.json', 'docs/**', 'scripts/build_directory.py', '.github/workflows/directory.yml']
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python3 scripts/build_directory.py --check
+      - run: node --check docs/directory.js

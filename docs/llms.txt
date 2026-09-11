@@ -4,6 +4,8 @@
 
 ## Resources
 
+- Searchable directory: https://laplaceagent.com/awesome-agent-trading/
+- Downloadable directory data: https://laplaceagent.com/awesome-agent-trading/projects.json
 - Repository: https://github.com/laplace0x/awesome-agent-trading
 - Full directory: https://github.com/laplace0x/awesome-agent-trading/blob/main/README.md
 - Featured data subset: https://github.com/laplace0x/awesome-agent-trading/blob/main/data/projects.json

@@ -12,6 +12,8 @@ Link to upstream documentation and a license source. If a license is only declar
 
 `data/projects.json` is a featured subset. Add new featured entries there and keep descriptions consistent with the README. Include `modes`, `origin`, `license`, `license_source`, `notes`, `last_verified`, `verification`, and `sources` when reviewed. Use `upstream-documentation` for documentation-only reviews; leave unknown values explicit. Update `llms.txt`, `docs/llms.txt`, and website copy when categories or featured resources change.
 
+After editing the featured data, run `python3 scripts/build_directory.py` to regenerate the website's project list, category counts, and downloadable `docs/projects.json`. Commit the generated files together. CI checks that the public directory matches its source. Do not manually edit the generated sections in `docs/index.html`.
+
 ## Adding a New Entry
 
 1. **Check if it already exists** — Search the README first

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://laplaceagent.com/awesome-agent-trading/sitemap.xml
+Sitemap: https://laplaceagent.com/awesome-agent-trading/sitemap.xml

@@ -6,23 +6,24 @@
     <title>Awesome Agent Trading - Agents, Broker MCPs, and Prediction Markets</title>
     <meta name="description" content="Curated directory of AI trading agents, broker integrations, MCP servers, and research tools for US equities, options, global crypto, and prediction markets.">
     <meta name="keywords" content="AI trading agents, agent trading, autonomous trading agents, trading bots, crypto trading bots, MCP servers, Model Context Protocol, OpenClaw, Hyperliquid, Polymarket, Kalshi, prediction markets, algorithmic trading, quant trading">
-    <link rel="canonical" href="http://laplaceagent.com/awesome-agent-trading/">
+    <link rel="canonical" href="https://laplaceagent.com/awesome-agent-trading/">
     <meta name="robots" content="index, follow">
 
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Awesome Agent Trading">
     <meta property="og:title" content="Awesome Agent Trading">
     <meta property="og:description" content="Curated directory of AI trading agents, broker integrations, MCP servers, and research tools for US equities, options, global crypto, and prediction markets.">
-    <meta property="og:url" content="http://laplaceagent.com/awesome-agent-trading/">
-    <meta property="og:image" content="http://laplaceagent.com/awesome-agent-trading/og.png">
+    <meta property="og:url" content="https://laplaceagent.com/awesome-agent-trading/">
+    <meta property="og:image" content="https://laplaceagent.com/awesome-agent-trading/og.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Awesome Agent Trading">
     <meta name="twitter:description" content="Curated directory of AI trading agents, broker integrations, MCP servers, and research tools for US equities, options, global crypto, and prediction markets.">
-    <meta name="twitter:image" content="http://laplaceagent.com/awesome-agent-trading/og.png">
+    <meta name="twitter:image" content="https://laplaceagent.com/awesome-agent-trading/og.png">
 
     <link rel="stylesheet" href="styles.css">
+    <script src="directory.js" defer></script>
     <link rel="sitemap" type="application/xml" href="sitemap.xml">
 
     <script type="application/ld+json">
@@ -30,7 +31,7 @@
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Awesome Agent Trading",
-  "url": "http://laplaceagent.com/awesome-agent-trading/",
+  "url": "https://laplaceagent.com/awesome-agent-trading/",
   "description": "Curated directory of AI trading agents, broker integrations, MCP servers, and research tools for US equities, options, global crypto, and prediction markets.",
   "inLanguage": "en",
   "publisher": {
@@ -135,76 +136,307 @@
     </script>
   </head>
   <body>
-    <header class="hero">
-      <nav class="topbar" aria-label="Primary">
-        <a class="brand" href="https://github.com/laplace0x/awesome-agent-trading">Awesome Agent Trading</a>
-        <div class="navlinks">
-          <a href="#categories">Categories</a>
-          <a href="#featured">Featured</a>
-          <a href="#faq">FAQ</a>
-          <a href="https://github.com/laplace0x/awesome-agent-trading">GitHub</a>
-        </div>
-      </nav>
-      <div class="hero__content">
-        <p class="eyebrow">Tools for agentic trading</p>
-        <h1>Awesome Agent Trading</h1>
-        <p class="lede">Curated directory of AI trading agents, broker integrations, MCP servers, and research tools for US equities, options, global crypto, and prediction markets.</p>
-        <div class="hero__actions">
-          <a class="button button--primary" href="https://github.com/laplace0x/awesome-agent-trading">Explore the GitHub list</a>
-          <a class="button button--secondary" href="https://github.com/laplace0x/awesome-agent-trading/blob/main/data/projects.json">View structured data</a>
-        </div>
-      </div>
+    <a class="skip-link" href="#directory">Skip to directory</a>
+    <header class="shell topbar">
+      <a class="brand" href="./">Awesome Agent Trading<span class="brand-mark" aria-hidden="true"> /</span></a>
+      <nav aria-label="Primary"><a href="#directory">Directory</a><a href="#faq">FAQ</a><a href="https://github.com/laplace0x/awesome-agent-trading">GitHub ↗</a></nav>
     </header>
-
-    <main>
-      <section class="section intro" aria-labelledby="intro-title">
-        <div>
-          <p class="section-label">Scope</p>
-          <h2 id="intro-title">A focused map of the AI agent trading stack.</h2>
-        </div>
-        <p>Find tools for US equities and options, global crypto and DeFi, and Polymarket or Kalshi workflows. Compare research, backtesting, paper trading, and live execution. Account and venue availability vary; project listings do not certify trading performance.</p>
+    <main class="shell">
+      <section class="intro" aria-labelledby="page-title">
+        <div><p class="eyebrow">Research. Build. Trade.</p><h1 id="page-title">Find your trading<br>agent stack.</h1></div>
+        <div class="intro-copy"><p>Agents, broker integrations, and research tools for equities, options, crypto, and prediction markets.</p><a class="text-link" href="https://github.com/laplace0x/awesome-agent-trading">Full list &amp; contributions ↗</a></div>
       </section>
+      <section id="directory" aria-labelledby="directory-title">
+        <div class="section-heading"><h2 id="directory-title">The directory</h2><a href="projects.json">Download JSON ↓</a></div>
+        <form id="filters" role="search" hidden>
+          <div class="filter-row">
+            <div class="search-field"><label for="search">Search tools</label><input id="search" name="q" type="search" placeholder="Name, integration, or keyword…" autocomplete="off"></div>
+            <div><label for="market">Market</label><select id="market" name="market"><option value="">All markets</option><option>Equities</option><option>Options</option><option>Crypto &amp; DeFi</option><option>Prediction markets</option><option>Futures &amp; FX</option><option>Other</option></select></div>
+            <div><label for="mode">Mode</label><select id="mode" name="mode"><option value="">All modes</option><option value="research">Research</option><option value="backtest">Backtest</option><option value="paper">Paper</option><option value="dry-run">Dry-run</option><option value="live">Live</option><option value="unknown">Not listed</option></select></div>
+          </div>
+          <div class="mobile-category"><label for="category-select">Category</label><select id="category-select">
+<!-- CATEGORY-OPTIONS:START -->
+<option value="">All categories</option><option value="Trading Agents">Trading Agents</option><option value="Broker &amp; Exchange Integrations">Broker &amp; Exchange Integrations</option><option value="MCP Servers &amp; Agent Skills">MCP Servers &amp; Agent Skills</option><option value="Prediction Markets">Prediction Markets</option><option value="Research &amp; Backtesting">Research &amp; Backtesting</option><option value="Data, Wallets &amp; Risk Infrastructure">Data, Wallets &amp; Risk Infrastructure</option>
+<!-- CATEGORY-OPTIONS:END -->
+          </select></div>
+          <div id="categories" class="categories" role="group" aria-label="Filter by category">
+<!-- CATEGORIES:START -->
+<button type="button" class="category active" data-category="" aria-pressed="true">All tools <span>35</span></button>
+<button type="button" class="category" data-category="Trading Agents" aria-pressed="false">Trading Agents <span>7</span></button>
+<button type="button" class="category" data-category="Broker &amp; Exchange Integrations" aria-pressed="false">Broker &amp; Exchange Integrations <span>2</span></button>
+<button type="button" class="category" data-category="MCP Servers &amp; Agent Skills" aria-pressed="false">MCP Servers &amp; Agent Skills <span>10</span></button>
+<button type="button" class="category" data-category="Prediction Markets" aria-pressed="false">Prediction Markets <span>4</span></button>
+<button type="button" class="category" data-category="Research &amp; Backtesting" aria-pressed="false">Research &amp; Backtesting <span>6</span></button>
+<button type="button" class="category" data-category="Data, Wallets &amp; Risk Infrastructure" aria-pressed="false">Data, Wallets &amp; Risk Infrastructure <span>6</span></button>
+<!-- CATEGORIES:END -->
+          </div>
+        </form>
+        <noscript><p>All tools are listed below. Enable JavaScript to search and filter.</p></noscript>
+        <div class="results-heading"><p id="result-count" role="status" aria-live="polite" aria-atomic="true">
+<!-- COUNT:START -->
+35 tools
+<!-- COUNT:END -->
+        </p><button id="reset" type="button" hidden>Clear filters</button></div>
+        <p class="directory-note">A curated selection from the full list. Modes reflect documented capabilities; “not listed” means they have not been recorded here.</p>
+        <div id="projects" class="projects">
+<!-- PROJECTS:START -->
+<article class="project" data-category="Trading Agents" data-markets="[&quot;Equities&quot;, &quot;Crypto &amp; DeFi&quot;, &quot;Other&quot;]" data-modes="[]" data-search="AI-Trader Agent trading platform with experiments and paper-trading workflows. Trading Agents stocks tradfi crypto ai-trading agent-native automation Python">
+  <p class="project-category">Trading Agents</p>
+  <h3><a href="https://github.com/HKUDS/AI-Trader">AI-Trader<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Agent trading platform with experiments and paper-trading workflows.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
 
-      <section class="section" id="categories" aria-labelledby="categories-title">
-        <p class="section-label">Categories</p>
-        <h2 id="categories-title">Browse the directory by use case.</h2>
-        <div class="category-grid">
-          <article><h3>Trading Agents</h3><p>Decision and execution systems, with experimental and source-available projects labeled.</p></article>
-          <article><h3>Broker &amp; Exchange Integrations</h3><p>Official broker MCP tools and exchange APIs, including Alpaca and Robinhood.</p></article>
-          <article><h3>MCP Servers &amp; Agent Skills</h3><p>Tools, CLIs, and skills for supported agent clients, including OpenClaw.</p></article>
-          <article><h3>Prediction Markets</h3><p>Polymarket and Kalshi tools, SDKs, market discovery, and simulation.</p></article>
-          <article><h3>Research &amp; Backtesting</h3><p>Financial research agents and strategy runtimes for backtest, paper, and live workflows.</p></article>
-          <article><h3>Data, Wallets &amp; Risk Infrastructure</h3><p>Market data, wallet actions, order controls, audit trails, identity, and payments.</p></article>
+</article>
+<article class="project" data-category="Broker &amp; Exchange Integrations" data-markets="[&quot;Equities&quot;, &quot;Options&quot;, &quot;Crypto &amp; DeFi&quot;]" data-modes="[&quot;paper&quot;, &quot;live&quot;]" data-search="Alpaca MCP Server Official MCP server for stock, ETF, crypto, and options tools; paper trading by default with an explicit live setting. Broker &amp; Exchange Integrations us-equities options crypto mcp broker official Python">
+  <p class="project-category">Broker &amp; Exchange Integrations</p>
+  <h3><a href="https://github.com/alpacahq/alpaca-mcp-server">Alpaca MCP Server<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Official MCP server for stock, ETF, crypto, and options tools; paper trading by default with an explicit live setting.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">MCP</span><span class="tag">Paper</span><span class="tag">Live</span><span class="tag tag--accent">Official</span></div>
+<details class="project-details"><summary>Access &amp; license</summary><p>Requires an eligible Alpaca account and API credentials; market data entitlements vary.</p><p><a href="https://github.com/alpacahq/alpaca-mcp-server/blob/main/LICENSE">MIT license source</a> · Reviewed 2026-09-12</p></details>
+</article>
+<article class="project" data-category="MCP Servers &amp; Agent Skills" data-markets="[&quot;Equities&quot;, &quot;Options&quot;, &quot;Crypto &amp; DeFi&quot;]" data-modes="[&quot;backtest&quot;, &quot;paper&quot;, &quot;live&quot;]" data-search="Alpaca Skills Official agent skills for backtesting, paper trading, and Broker API order, reconciliation, and account workflows. MCP Servers &amp; Agent Skills us-equities options crypto skills broker official Python">
+  <p class="project-category">MCP Servers &amp; Agent Skills</p>
+  <h3><a href="https://github.com/alpacahq/alpaca-skills">Alpaca Skills<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Official agent skills for backtesting, paper trading, and Broker API order, reconciliation, and account workflows.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">Skills</span><span class="tag">Backtest</span><span class="tag">Paper</span><span class="tag">Live</span><span class="tag tag--accent">Official</span></div>
+<details class="project-details"><summary>Access &amp; license</summary><p>Individual skills have different credential and account requirements; not limited to OpenClaw.</p><p><a href="https://github.com/alpacahq/alpaca-skills/blob/main/LICENSE">Apache-2.0 license source</a> · Reviewed 2026-09-12</p></details>
+</article>
+<article class="project" data-category="MCP Servers &amp; Agent Skills" data-markets="[&quot;Crypto &amp; DeFi&quot;]" data-modes="[]" data-search="Binance MCP Unofficial Binance MCP server for trading AI agents. MCP Servers &amp; Agent Skills crypto cex mcp binance trading-api ">
+  <p class="project-category">MCP Servers &amp; Agent Skills</p>
+  <h3><a href="https://github.com/nicepkg/binance-mcp">Binance MCP<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Unofficial Binance MCP server for trading AI agents.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">MCP</span><span class="tag tag--muted">Mode not listed</span></div>
 
+</article>
+<article class="project" data-category="Trading Agents" data-markets="[&quot;Crypto &amp; DeFi&quot;, &quot;Prediction markets&quot;]" data-modes="[]" data-search="CloddsBot Self-hosted AI trading agent across Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, and EVM chains. Trading Agents prediction-markets crypto defi cex self-hosted polymarket kalshi hyperliquid binance TypeScript">
+  <p class="project-category">Trading Agents</p>
+  <h3><a href="https://github.com/alsk1992/CloddsBot">CloddsBot<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Self-hosted AI trading agent across Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, and EVM chains.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Data, Wallets &amp; Risk Infrastructure" data-markets="[&quot;Crypto &amp; DeFi&quot;]" data-modes="[&quot;live&quot;]" data-search="Coinbase AgentKit Wallet and on-chain action toolkit for agents; execution infrastructure rather than a trading strategy. Data, Wallets &amp; Risk Infrastructure crypto defi wallet sdk official TypeScript">
+  <p class="project-category">Data, Wallets &amp; Risk Infrastructure</p>
+  <h3><a href="https://github.com/coinbase/agentkit">Coinbase AgentKit<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Wallet and on-chain action toolkit for agents; execution infrastructure rather than a trading strategy.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">SDK</span><span class="tag">Live</span><span class="tag tag--accent">Official</span></div>
+<details class="project-details"><summary>Access &amp; license</summary><p>Chain, wallet, and action support depends on the selected integration.</p><p><a href="https://github.com/coinbase/agentkit/blob/main/LICENSE.md">Apache-2.0 license source</a> · Reviewed 2026-09-12</p></details>
+</article>
+<article class="project" data-category="MCP Servers &amp; Agent Skills" data-markets="[&quot;Crypto &amp; DeFi&quot;]" data-modes="[]" data-search="CoinGecko MCP Official CoinGecko MCP server for cryptocurrency price and market data. MCP Servers &amp; Agent Skills crypto mcp market-data coingecko prices ">
+  <p class="project-category">MCP Servers &amp; Agent Skills</p>
+  <h3><a href="https://docs.coingecko.com/docs/mcp-server">CoinGecko MCP<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Official CoinGecko MCP server for cryptocurrency price and market data.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">MCP</span><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Data, Wallets &amp; Risk Infrastructure" data-markets="[&quot;Crypto &amp; DeFi&quot;]" data-modes="[]" data-search="DeFiLlama DeFi TVL, protocol revenue, and yield data. Data, Wallets &amp; Risk Infrastructure crypto defi market-data defi tvl yield ">
+  <p class="project-category">Data, Wallets &amp; Risk Infrastructure</p>
+  <h3><a href="https://defillama.com">DeFiLlama<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">DeFi TVL, protocol revenue, and yield data.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Research &amp; Backtesting" data-markets="[&quot;Equities&quot;]" data-modes="[&quot;research&quot;]" data-search="Dexter Financial research agent with task planning, market-data tools, self-checks, and question-answer evaluation. Research &amp; Backtesting us-equities research financial-data evals TypeScript">
+  <p class="project-category">Research &amp; Backtesting</p>
+  <h3><a href="https://github.com/virattt/dexter">Dexter<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Financial research agent with task planning, market-data tools, self-checks, and question-answer evaluation.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">Research</span><span class="tag">Community</span></div>
+<details class="project-details"><summary>Access &amp; license</summary><p>README declares MIT; no standalone root license file was found. Research tool, not an order-execution system; data/model services may cost extra.</p><p><a href="https://github.com/virattt/dexter#-license">MIT license source</a> · Reviewed 2026-09-12</p></details>
+</article>
+<article class="project" data-category="Data, Wallets &amp; Risk Infrastructure" data-markets="[&quot;Crypto &amp; DeFi&quot;]" data-modes="[]" data-search="ERC-8004 On-chain agent identity and verifiable reputation standard. Data, Wallets &amp; Risk Infrastructure crypto defi agent-identity reputation on-chain trust ">
+  <p class="project-category">Data, Wallets &amp; Risk Infrastructure</p>
+  <h3><a href="https://8004.org">ERC-8004<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">On-chain agent identity and verifiable reputation standard.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Research &amp; Backtesting" data-markets="[&quot;Equities&quot;, &quot;Crypto &amp; DeFi&quot;, &quot;Other&quot;]" data-modes="[]" data-search="FinRL Deep reinforcement learning framework for automated trading in crypto and traditional finance. Research &amp; Backtesting crypto tradfi stocks reinforcement-learning automated-trading finance Python">
+  <p class="project-category">Research &amp; Backtesting</p>
+  <h3><a href="https://github.com/AI4Finance-Foundation/FinRL">FinRL<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Deep reinforcement learning framework for automated trading in crypto and traditional finance.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="MCP Servers &amp; Agent Skills" data-markets="[&quot;Equities&quot;, &quot;Crypto &amp; DeFi&quot;, &quot;Prediction markets&quot;, &quot;Futures &amp; FX&quot;]" data-modes="[]" data-search="fintool Rust CLI tools for agentic trading across Hyperliquid, Binance, Coinbase, OKX, Polymarket, and market intelligence. MCP Servers &amp; Agent Skills crypto stocks commodities prediction-markets cli mcp market-intelligence agentic-trading Rust">
+  <p class="project-category">MCP Servers &amp; Agent Skills</p>
+  <h3><a href="https://github.com/second-state/fintool">fintool<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Rust CLI tools for agentic trading across Hyperliquid, Binance, Coinbase, OKX, Polymarket, and market intelligence.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">MCP</span><span class="tag">CLI</span><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Research &amp; Backtesting" data-markets="[&quot;Crypto &amp; DeFi&quot;]" data-modes="[]" data-search="Freqtrade Open-source crypto trading bot with strategy optimization. Research &amp; Backtesting crypto cex trading-bot strategy-optimization backtesting Python">
+  <p class="project-category">Research &amp; Backtesting</p>
+  <h3><a href="https://github.com/freqtrade/freqtrade">Freqtrade<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Open-source crypto trading bot with strategy optimization.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Trading Agents" data-markets="[&quot;Equities&quot;]" data-modes="[&quot;dry-run&quot;, &quot;live&quot;]" data-search="FriesTrader Experimental Robinhood MCP trading template with separate research and execution phases, dry-run defaults, and Python risk calculations. Trading Agents us-equities experimental robinhood risk-controls Python">
+  <p class="project-category">Trading Agents</p>
+  <h3><a href="https://github.com/YizhiSong/FriesTrader">FriesTrader<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Experimental Robinhood MCP trading template with separate research and execution phases, dry-run defaults, and Python risk calculations.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">Dry-run</span><span class="tag">Live</span><span class="tag">Community</span><span class="tag">Experimental</span></div>
+<details class="project-details"><summary>Access &amp; license</summary><p>Live deployment is an author claim, not independently verified here; documented constraints are not a security audit.</p><p><a href="https://github.com/YizhiSong/FriesTrader/blob/main/LICENSE">MIT license source</a> · Reviewed 2026-09-12</p></details>
+</article>
+<article class="project" data-category="Research &amp; Backtesting" data-markets="[&quot;Crypto &amp; DeFi&quot;]" data-modes="[]" data-search="Hummingbot Open-source crypto market making and trading bot framework. Research &amp; Backtesting crypto cex defi market-making trading-bot crypto Python">
+  <p class="project-category">Research &amp; Backtesting</p>
+  <h3><a href="https://github.com/hummingbot/hummingbot">Hummingbot<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Open-source crypto market making and trading bot framework.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Data, Wallets &amp; Risk Infrastructure" data-markets="[&quot;Crypto &amp; DeFi&quot;]" data-modes="[]" data-search="Hyperliquid API Perpetuals market data, order book, funding, open interest, and user state APIs. Data, Wallets &amp; Risk Infrastructure crypto hyperliquid perpetuals market-data rest-api websocket perps ">
+  <p class="project-category">Data, Wallets &amp; Risk Infrastructure</p>
+  <h3><a href="https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api">Hyperliquid API<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Perpetuals market data, order book, funding, open interest, and user state APIs.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="MCP Servers &amp; Agent Skills" data-markets="[&quot;Crypto &amp; DeFi&quot;]" data-modes="[]" data-search="Hyperliquid Trading Secure Hyperliquid perpetuals trading skill via gateway API with risk enforcement. MCP Servers &amp; Agent Skills crypto perpetuals hyperliquid openclaw hyperliquid perps risk-management ">
+  <p class="project-category">MCP Servers &amp; Agent Skills</p>
+  <h3><a href="https://clawhub.ai/laplace0x/hyperliquid-trading">Hyperliquid Trading<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Secure Hyperliquid perpetuals trading skill via gateway API with risk enforcement.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="MCP Servers &amp; Agent Skills" data-markets="[&quot;Crypto &amp; DeFi&quot;]" data-modes="[]" data-search="hyperliquid-mcp Hyperliquid MCP server for orders, positions, market data, bracket orders, and agent mode. MCP Servers &amp; Agent Skills crypto hyperliquid perpetuals mcp model-context-protocol hyperliquid orders ">
+  <p class="project-category">MCP Servers &amp; Agent Skills</p>
+  <h3><a href="https://github.com/edkdev/hyperliquid-mcp">hyperliquid-mcp<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Hyperliquid MCP server for orders, positions, market data, bracket orders, and agent mode.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">MCP</span><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Prediction Markets" data-markets="[&quot;Prediction markets&quot;]" data-modes="[]" data-search="Kalshi Regulated US prediction market with API access. Prediction Markets prediction-markets kalshi regulated api ">
+  <p class="project-category">Prediction Markets</p>
+  <h3><a href="https://kalshi.com">Kalshi<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Regulated US prediction market with API access.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">API</span><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Prediction Markets" data-markets="[&quot;Prediction markets&quot;]" data-modes="[]" data-search="Kalshi Trading Bot CLI AI-native Kalshi trading CLI with probability estimates, order book edge, Kelly sizing, and risk gates. Prediction Markets prediction-markets kalshi cli kelly-sizing risk-gates ai-trading TypeScript">
+  <p class="project-category">Prediction Markets</p>
+  <h3><a href="https://github.com/OctagonAI/kalshi-trading-bot-cli">Kalshi Trading Bot CLI<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">AI-native Kalshi trading CLI with probability estimates, order book edge, Kelly sizing, and risk gates.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">CLI</span><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Research &amp; Backtesting" data-markets="[&quot;Equities&quot;, &quot;Options&quot;, &quot;Crypto &amp; DeFi&quot;, &quot;Futures &amp; FX&quot;]" data-modes="[&quot;backtest&quot;, &quot;paper&quot;, &quot;live&quot;]" data-search="Lumibot Python strategy and AI-agent runtime connecting historical backtests, paper trading, and broker execution. Research &amp; Backtesting us-equities options crypto futures forex backtesting broker runtime Python">
+  <p class="project-category">Research &amp; Backtesting</p>
+  <h3><a href="https://github.com/Lumiwealth/lumibot">Lumibot<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Python strategy and AI-agent runtime connecting historical backtests, paper trading, and broker execution.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">Backtest</span><span class="tag">Paper</span><span class="tag">Live</span><span class="tag">Community</span></div>
+<details class="project-details"><summary>Access &amp; license</summary><p>Supported assets, data access, and execution modes depend on the broker and data provider.</p><p><a href="https://github.com/Lumiwealth/lumibot/blob/master/LICENSE">GPL-3.0 license source</a> · Reviewed 2026-09-12</p></details>
+</article>
+<article class="project" data-category="Trading Agents" data-markets="[&quot;Equities&quot;, &quot;Crypto &amp; DeFi&quot;, &quot;Futures &amp; FX&quot;, &quot;Other&quot;]" data-modes="[]" data-search="OpenAlice AI trading agent covering equities, crypto, commodities, forex, and macro from research to execution and position management. Trading Agents stocks crypto commodities forex macro ai-trading-agent research execution position-management TypeScript">
+  <p class="project-category">Trading Agents</p>
+  <h3><a href="https://github.com/TraderAlice/OpenAlice">OpenAlice<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">AI trading agent covering equities, crypto, commodities, forex, and macro from research to execution and position management.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Data, Wallets &amp; Risk Infrastructure" data-markets="[&quot;Crypto &amp; DeFi&quot;, &quot;Other&quot;]" data-modes="[]" data-search="OpenClaw Open-source AI agent platform with skill system, cron jobs, and multi-channel output. Data, Wallets &amp; Risk Infrastructure crypto defi tradfi ai-agent agent-framework skills automation Node.js">
+  <p class="project-category">Data, Wallets &amp; Risk Infrastructure</p>
+  <h3><a href="https://github.com/openclaw/openclaw">OpenClaw<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Open-source AI agent platform with skill system, cron jobs, and multi-channel output.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">Skills</span><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Trading Agents" data-markets="[&quot;Equities&quot;]" data-modes="[&quot;live&quot;]" data-search="OpenTrade macOS trading app for coding agents using Robinhood MCP, with order approvals, monitors, and schedules. Trading Agents us-equities agent-runtime robinhood source-available TypeScript">
+  <p class="project-category">Trading Agents</p>
+  <h3><a href="https://github.com/OpenTradeOSS/OpenTrade">OpenTrade<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">macOS trading app for coding agents using Robinhood MCP, with order approvals, monitors, and schedules.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">Live</span><span class="tag">Community</span><span class="tag">Source-available</span></div>
+<details class="project-details"><summary>Access &amp; license</summary><p>Source-available under Elastic License 2.0, not an open-source license; requires an eligible Robinhood account.</p><p><a href="https://github.com/OpenTradeOSS/OpenTrade/blob/main/LICENSE">Elastic-2.0 license source</a> · Reviewed 2026-09-12</p></details>
+</article>
+<article class="project" data-category="MCP Servers &amp; Agent Skills" data-markets="[&quot;Crypto &amp; DeFi&quot;]" data-modes="[]" data-search="perp-cli Multi-DEX perpetuals CLI and MCP server for Hyperliquid, Pacifica, and Lighter. MCP Servers &amp; Agent Skills crypto perpetuals defi mcp cli hyperliquid perps ">
+  <p class="project-category">MCP Servers &amp; Agent Skills</p>
+  <h3><a href="https://github.com/hypurrquant/perp-cli">perp-cli<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Multi-DEX perpetuals CLI and MCP server for Hyperliquid, Pacifica, and Lighter.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">MCP</span><span class="tag">CLI</span><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Prediction Markets" data-markets="[&quot;Prediction markets&quot;]" data-modes="[]" data-search="Polymarket Prediction market platform on Polygon with CLOB API access. Prediction Markets prediction-markets polymarket clob polygon ">
+  <p class="project-category">Prediction Markets</p>
+  <h3><a href="https://polymarket.com">Polymarket<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Prediction market platform on Polygon with CLOB API access.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Prediction Markets" data-markets="[&quot;Prediction markets&quot;]" data-modes="[&quot;research&quot;, &quot;live&quot;]" data-search="Polymarket CLI Official experimental Rust CLI for market discovery, JSON output, orders, positions, and on-chain operations. Prediction Markets prediction-markets cli official experimental Rust">
+  <p class="project-category">Prediction Markets</p>
+  <h3><a href="https://github.com/Polymarket/polymarket-cli">Polymarket CLI<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Official experimental Rust CLI for market discovery, JSON output, orders, positions, and on-chain operations.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">CLI</span><span class="tag">Research</span><span class="tag">Live</span><span class="tag tag--accent">Official</span><span class="tag">Experimental</span></div>
+<details class="project-details"><summary>Access &amp; license</summary><p>MIT is declared in Cargo.toml; no standalone root license file was found. Trading requires wallet credentials and venue eligibility.</p><p><a href="https://github.com/Polymarket/polymarket-cli/blob/main/Cargo.toml">MIT license source</a> · Reviewed 2026-09-12</p></details>
+</article>
+<article class="project" data-category="MCP Servers &amp; Agent Skills" data-markets="[&quot;Prediction markets&quot;]" data-modes="[]" data-search="polymarket-mcp-server Polymarket MCP server with trading, market discovery, monitoring, and safety tools. MCP Servers &amp; Agent Skills prediction-markets polymarket mcp polymarket market-discovery safety Python">
+  <p class="project-category">MCP Servers &amp; Agent Skills</p>
+  <h3><a href="https://github.com/caiovicentino/polymarket-mcp-server">polymarket-mcp-server<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Polymarket MCP server with trading, market discovery, monitoring, and safety tools.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">MCP</span><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Trading Agents" data-markets="[&quot;Equities&quot;, &quot;Crypto &amp; DeFi&quot;, &quot;Futures &amp; FX&quot;]" data-modes="[]" data-search="QuantDinger AI quantitative trading platform with backtesting, live trading, market data, and multi-agent research. Trading Agents crypto stocks forex quant-trading backtesting live-trading multi-agent Python">
+  <p class="project-category">Trading Agents</p>
+  <h3><a href="https://github.com/OpenByteInc/QuantDinger">QuantDinger<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">AI quantitative trading platform with backtesting, live trading, market data, and multi-agent research.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Broker &amp; Exchange Integrations" data-markets="[&quot;Equities&quot;]" data-modes="[&quot;research&quot;, &quot;live&quot;]" data-search="Robinhood Agentic Trading Official hosted MCP integration for portfolio research and order execution in a dedicated Agentic account. Broker &amp; Exchange Integrations us-equities mcp broker hosted official ">
+  <p class="project-category">Broker &amp; Exchange Integrations</p>
+  <h3><a href="https://robinhood.com/us/en/support/articles/agentic-trading-overview/">Robinhood Agentic Trading<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Official hosted MCP integration for portfolio research and order execution in a dedicated Agentic account.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">MCP</span><span class="tag">Research</span><span class="tag">Live</span><span class="tag tag--accent">Official</span></div>
+<details class="project-details"><summary>Access &amp; license</summary><p>Hosted service, not an open-source server. Eligibility and supported products depend on the account; read access extends beyond the tradable Agentic account.</p><p>Hosted service · Reviewed 2026-09-12</p></details>
+</article>
+<article class="project" data-category="MCP Servers &amp; Agent Skills" data-markets="[&quot;Prediction markets&quot;]" data-modes="[]" data-search="Simmer SDK Prediction market harness for AI agents with skills, MCP server, and Python SDK. MCP Servers &amp; Agent Skills prediction-markets mcp sdk prediction-market agent-harness Python">
+  <p class="project-category">MCP Servers &amp; Agent Skills</p>
+  <h3><a href="https://github.com/SpartanLabsXyz/simmer-sdk">Simmer SDK<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Prediction market harness for AI agents with skills, MCP server, and Python SDK.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">MCP</span><span class="tag">SDK</span><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="MCP Servers &amp; Agent Skills" data-markets="[&quot;Crypto &amp; DeFi&quot;, &quot;Prediction markets&quot;, &quot;Other&quot;]" data-modes="[]" data-search="TradeMemory Protocol Decision audit trail and persistent memory for AI trading agents with outcome-weighted recall and MCP tools. MCP Servers &amp; Agent Skills crypto tradfi prediction-markets mcp memory audit-trail risk-management Python">
+  <p class="project-category">MCP Servers &amp; Agent Skills</p>
+  <h3><a href="https://github.com/mnemox-ai/tradememory-protocol">TradeMemory Protocol<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Decision audit trail and persistent memory for AI trading agents with outcome-weighted recall and MCP tools.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">MCP</span><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Research &amp; Backtesting" data-markets="[&quot;Equities&quot;, &quot;Other&quot;]" data-modes="[]" data-search="TradingAgents Multi-agent LLM financial trading framework for stock analysis and portfolio management. Research &amp; Backtesting stocks tradfi multi-agent llm stock-analysis portfolio-management Python">
+  <p class="project-category">Research &amp; Backtesting</p>
+  <h3><a href="https://github.com/TauricResearch/TradingAgents">TradingAgents<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Multi-agent LLM financial trading framework for stock analysis and portfolio management.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Trading Agents" data-markets="[&quot;Equities&quot;, &quot;Crypto &amp; DeFi&quot;, &quot;Other&quot;]" data-modes="[]" data-search="Vibe-Trading Personal trading agent with persistent memory, self-evolving skills, and context compression. Trading Agents stocks crypto tradfi personal-agent memory self-evolving llm Python">
+  <p class="project-category">Trading Agents</p>
+  <h3><a href="https://github.com/HKUDS/Vibe-Trading">Vibe-Trading<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Personal trading agent with persistent memory, self-evolving skills, and context compression.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<article class="project" data-category="Data, Wallets &amp; Risk Infrastructure" data-markets="[&quot;Crypto &amp; DeFi&quot;, &quot;Other&quot;]" data-modes="[]" data-search="x402 HTTP micropayments protocol for pay-per-query signal APIs and agent commerce. Data, Wallets &amp; Risk Infrastructure crypto agent-commerce payments micropayments agent-commerce signals ">
+  <p class="project-category">Data, Wallets &amp; Risk Infrastructure</p>
+  <h3><a href="https://x402.org">x402<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">HTTP micropayments protocol for pay-per-query signal APIs and agent commerce.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
+
+</article>
+<!-- PROJECTS:END -->
         </div>
+        <div id="empty" class="empty" hidden><h3>No matching tools</h3><p>Try a broader keyword or clear the filters.</p><button id="empty-reset" type="button">Show all tools</button></div>
+        <p class="footnote">Inclusion is not a performance endorsement. Account eligibility, data fees, and venue availability vary.</p>
       </section>
-
-      <section class="section featured" id="featured" aria-labelledby="featured-title">
-        <p class="section-label">Featured resources</p>
-        <h2 id="featured-title">High-signal projects from the list.</h2>
-        <div class="resource-list">
-          <a href="https://github.com/alpacahq/alpaca-mcp-server"><span>Alpaca MCP Server</span><small>Official MCP server for stock, ETF, crypto, and options tools; paper trading by default with an explicit live setting.</small></a>
-          <a href="https://robinhood.com/us/en/support/articles/agentic-trading-overview/"><span>Robinhood Agentic Trading</span><small>Official hosted MCP integration for portfolio research and order execution in a dedicated Agentic account.</small></a>
-          <a href="https://github.com/TraderAlice/OpenAlice"><span>OpenAlice</span><small>AI trading agent covering equities, crypto, commodities, forex, and macro from research to execution and position management.</small></a>
-          <a href="https://github.com/Polymarket/polymarket-cli"><span>Polymarket CLI</span><small>Official experimental Rust CLI for market discovery, JSON output, orders, positions, and on-chain operations.</small></a>
-          <a href="https://github.com/Lumiwealth/lumibot"><span>Lumibot</span><small>Python strategy and AI-agent runtime connecting historical backtests, paper trading, and broker execution.</small></a>
-          <a href="https://github.com/coinbase/agentkit"><span>Coinbase AgentKit</span><small>Wallet and on-chain action toolkit for agents; execution infrastructure rather than a trading strategy.</small></a>
-
-        </div>
-      </section>
-
-      <section class="section faq" id="faq" aria-labelledby="faq-title">
-        <p class="section-label">FAQ</p>
-        <h2 id="faq-title">Common questions searchers ask.</h2>
-        <details open><summary>What is agent trading?</summary><p>AI agents can research markets, call tools, propose decisions, or execute orders under configured controls. Research-only tools and live systems have different capabilities.</p></details>
+      <section class="faq" id="faq" aria-labelledby="faq-title"><div class="section-heading"><h2 id="faq-title">Frequently asked questions</h2></div>
+        <details><summary>What is agent trading?</summary><p>AI agents can research markets, call tools, propose decisions, or execute orders under configured controls. Research-only tools and live systems have different capabilities.</p></details>
         <details><summary>Where should I start for US equities and options?</summary><p>Explore Alpaca MCP for paper/live tools, Robinhood Agentic Trading for an eligible dedicated account, and Lumibot for Python backtesting and broker execution. Account and data requirements vary.</p></details>
         <details><summary>Are these skills limited to OpenClaw?</summary><p>No. The directory covers MCP servers, CLIs, SDKs, and skills for the clients documented by each project.</p></details>
         <details><summary>Can AI agents trade on Polymarket or Kalshi?</summary><p>Tools include Polymarket CLI, Simmer SDK, Kalshi Trading Bot CLI, and community MCP integrations. Check venue eligibility and simulated versus real-order support.</p></details>
       </section>
     </main>
-
-    <footer>
-      <p>Curated by the open-source community. Contributions welcome on <a href="https://github.com/laplace0x/awesome-agent-trading">GitHub</a>.</p>
-    </footer>
+    <footer class="shell"><span>Awesome Agent Trading</span><a href="https://github.com/laplace0x/awesome-agent-trading/blob/main/CONTRIBUTING.md">Suggest a resource ↗</a></footer>
   </body>
 </html>
