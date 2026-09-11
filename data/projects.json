@@ -199,7 +199,7 @@
   },
   {
     "name": "Hyperliquid API",
-    "url": "https://docs.hyperliquid.xyz",
+    "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api",
     "category": "Data & Market Intelligence",
     "description": "Perpetuals market data, order book, funding, open interest, and user state APIs.",
     "language": null,

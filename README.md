@@ -152,7 +152,7 @@ Data sources and APIs for market analysis by agents.
 |--------|-----------|-----------|-----|
 | [CoinGecko](https://coingecko.com/api) | Prices, market cap, volume | Yes (30 calls/min) | REST |
 | [CoinGlass](https://coinglass.com) | Funding rates, OI, liquidations | Limited | REST |
-| [Hyperliquid API](https://docs.hyperliquid.xyz) | Perps data, order book, funding, OI, user state | Yes (free) | REST + WebSocket |
+| [Hyperliquid API](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api) | Perps data, order book, funding, OI, user state | Yes (free) | REST + WebSocket |
 | [DeFiLlama](https://defillama.com) | TVL, protocol revenue, yields | Yes (free) | REST |
 | [Glassnode](https://glassnode.com) | On-chain metrics (MVRV, SOPR) | Limited free | REST |
 | [Dune Analytics](https://dune.com) | Custom on-chain queries | Yes | SQL API |
@@ -170,7 +170,7 @@ On-chain identity and reputation systems for trading agents.
 |----------|---------|--------|
 | [ERC-8004](https://8004.org) | On-chain agent identity (NFT) + verifiable reputation | Ethereum, Base, BNB, Solana, Polygon |
 | [Helixa](https://helixa.xyz) | Agent identity + Cred Score on Base | Base |
-| [ERC-6551](https://eip6551.org) | Token-bound accounts (agent NFT owns wallet) | EVM |
+| [ERC-6551](https://eips.ethereum.org/EIPS/eip-6551) | Token-bound accounts (agent NFT owns wallet) | EVM |
 | [SIWA (ERC-8128)](https://github.com/BankrBot/skills/tree/main/siwa) | Sign-In With Agent authentication | EVM |
 | [TWZRD Agent Intel](https://intel.twzrd.xyz) | On-chain behavioral trust scoring for Solana agent wallets. Score + preflight free; signed trust receipt via x402 | Solana |
 
