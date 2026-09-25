@@ -167,6 +167,7 @@ Research and simulation are distinct from broker execution. Traditional ML/RL an
 | [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | Deep RL framework for automated trading (crypto + tradfi) | Python |
 | [OpenTrader](https://github.com/Open-Trader/opentrader) | Open-source crypto trading bot with DCA & GRID strategies, UI | TypeScript |
 | [moss-trade-bot-skills](https://github.com/moss-site/moss-trade-bot-skills) | Natural-language strategy generation and local Hyperliquid perps backtesting skills | Python |
+| [SmartMoney-Cub](https://github.com/myc0576/SmartMoney-Cub) | A local-first, agent-agnostic trading journal and review harness providing read-only deterministic replay, evidence packs, and explicit human review gates for offline benchmarking without broker connectivity. | Python |
 
 | Project | Modes / role | License / access |
 |---------|--------------|------------------|
