@@ -156,13 +156,14 @@
           </div>
           <div class="mobile-category"><label for="category-select">Category</label><select id="category-select">
 <!-- CATEGORY-OPTIONS:START -->
-<option value="">All categories</option><option value="Trading Agents">Trading Agents</option><option value="Broker &amp; Exchange Integrations">Broker &amp; Exchange Integrations</option><option value="MCP Servers &amp; Agent Skills">MCP Servers &amp; Agent Skills</option><option value="Prediction Markets">Prediction Markets</option><option value="Research &amp; Backtesting">Research &amp; Backtesting</option><option value="Data, Wallets &amp; Risk Infrastructure">Data, Wallets &amp; Risk Infrastructure</option>
+<option value="">All categories</option><option value="Trading Agents">Trading Agents</option><option value="Jev Trading">Jev Trading</option><option value="Broker &amp; Exchange Integrations">Broker &amp; Exchange Integrations</option><option value="MCP Servers &amp; Agent Skills">MCP Servers &amp; Agent Skills</option><option value="Prediction Markets">Prediction Markets</option><option value="Research &amp; Backtesting">Research &amp; Backtesting</option><option value="Data, Wallets &amp; Risk Infrastructure">Data, Wallets &amp; Risk Infrastructure</option>
 <!-- CATEGORY-OPTIONS:END -->
           </select></div>
           <div id="categories" class="categories" role="group" aria-label="Filter by category">
 <!-- CATEGORIES:START -->
-<button type="button" class="category active" data-category="" aria-pressed="true">All tools <span>44</span></button>
-<button type="button" class="category" data-category="Trading Agents" aria-pressed="false">Trading Agents <span>8</span></button>
+<button type="button" class="category active" data-category="" aria-pressed="true">All tools <span>48</span></button>
+<button type="button" class="category" data-category="Trading Agents" aria-pressed="false">Trading Agents <span>6</span></button>
+<button type="button" class="category" data-category="Jev Trading" aria-pressed="false">Jev Trading <span>6</span></button>
 <button type="button" class="category" data-category="Broker &amp; Exchange Integrations" aria-pressed="false">Broker &amp; Exchange Integrations <span>4</span></button>
 <button type="button" class="category" data-category="MCP Servers &amp; Agent Skills" aria-pressed="false">MCP Servers &amp; Agent Skills <span>12</span></button>
 <button type="button" class="category" data-category="Prediction Markets" aria-pressed="false">Prediction Markets <span>5</span></button>
@@ -174,7 +175,7 @@
         <noscript><p>All tools are listed below. Enable JavaScript to search and filter.</p></noscript>
         <div class="results-heading"><p id="result-count" role="status" aria-live="polite" aria-atomic="true">
 <!-- COUNT:START -->
-44 tools
+48 tools
 <!-- COUNT:END -->
         </p><button id="reset" type="button" hidden>Clear filters</button></div>
         <p class="directory-note">A curated selection from the full list. Modes reflect documented capabilities; “not listed” means they have not been recorded here.</p>
@@ -187,12 +188,12 @@
   <div class="tags" aria-label="Project attributes"><span class="tag">Research</span><span class="tag">Backtest</span><span class="tag">Paper</span><span class="tag">Live</span><span class="tag">Community</span><span class="tag">Experimental</span></div>
 <details class="project-details"><summary>Access &amp; license</summary><p>Source-available under a non-standard license and experimental. Optional live Robinhood execution is disabled by default and requires explicit configuration.</p><p><a href="https://github.com/Open-Finance-Lab/AgenticTrading/blob/main/LICENSE">OpenMDW-1.0 license source</a> · Reviewed 2026-09-27</p></details>
 </article>
-<article class="project" data-category="Trading Agents" data-markets="[&quot;Equities&quot;]" data-modes="[&quot;research&quot;, &quot;backtest&quot;]" data-search="AI Hedge Fund Multi-agent stock research and backtesting system modeled on several investing styles. Trading Agents us-equities multi-agent stock-analysis portfolio experimental Python">
-  <p class="project-category">Trading Agents</p>
+<article class="project" data-category="Jev Trading" data-markets="[&quot;Equities&quot;]" data-modes="[&quot;research&quot;, &quot;backtest&quot;]" data-search="AI Hedge Fund Multi-agent stock research and backtesting system with an optional Jev provider for structured investment judgments. Jev Trading us-equities jev multi-agent stock-analysis portfolio experimental Python">
+  <p class="project-category">Jev Trading</p>
   <h3><a href="https://github.com/virattt/ai-hedge-fund">AI Hedge Fund<span aria-hidden="true"> ↗</span></a></h3>
-  <p class="project-description">Multi-agent stock research and backtesting system modeled on several investing styles.</p>
+  <p class="project-description">Multi-agent stock research and backtesting system with an optional Jev provider for structured investment judgments.</p>
   <div class="tags" aria-label="Project attributes"><span class="tag">Research</span><span class="tag">Backtest</span><span class="tag">Community</span><span class="tag">Experimental</span></div>
-<details class="project-details"><summary>Access &amp; license</summary><p>The shipped application does not execute live trades. Some data and model providers require API keys or paid access.</p><p><a href="https://github.com/virattt/ai-hedge-fund/blob/main/LICENSE">MIT license source</a> · Reviewed 2026-09-27</p></details>
+<details class="project-details"><summary>Access &amp; license</summary><p>The shipped application does not execute live trades. Jev is optional and requires a TypeSafe API key; some data and model providers require paid access.</p><p><a href="https://github.com/virattt/ai-hedge-fund/blob/main/LICENSE">MIT license source</a> · Reviewed 2026-09-27</p></details>
 </article>
 <article class="project" data-category="Trading Agents" data-markets="[&quot;Equities&quot;, &quot;Crypto &amp; DeFi&quot;, &quot;Other&quot;]" data-modes="[]" data-search="AI-Trader Agent trading platform with experiments and paper-trading workflows. Trading Agents stocks tradfi crypto ai-trading agent-native automation Python">
   <p class="project-category">Trading Agents</p>
@@ -348,6 +349,34 @@
   <div class="tags" aria-label="Project attributes"><span class="tag">MCP</span><span class="tag">Research</span><span class="tag">Live</span><span class="tag tag--accent">Official</span></div>
 <details class="project-details"><summary>Access &amp; license</summary><p>Hosted service, not an open-source server. Requires an eligible IBKR account; availability and supported products vary by region.</p><p>Hosted service · Reviewed 2026-09-27</p></details>
 </article>
+<article class="project" data-category="Jev Trading" data-markets="[&quot;Equities&quot;]" data-modes="[&quot;research&quot;]" data-search="Jev A-Share Trader Jev-powered technical-analysis workspace for China A-shares with market scans and evidence-linked Buy, Hold, or Sell assessments. Jev Trading stocks jev china-a-shares technical-analysis research experimental Python">
+  <p class="project-category">Jev Trading</p>
+  <h3><a href="https://github.com/Eric-Zhou-0302/jev-A-share-trader">Jev A-Share Trader<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Jev-powered technical-analysis workspace for China A-shares with market scans and evidence-linked Buy, Hold, or Sell assessments.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">Research</span><span class="tag">Community</span><span class="tag">Experimental</span></div>
+<details class="project-details"><summary>Access &amp; license</summary><p>Research workspace using AKShare or Tushare data; it does not connect to a broker or place orders.</p><p><a href="https://github.com/Eric-Zhou-0302/jev-A-share-trader/blob/main/LICENSE">MIT license source</a> · Reviewed 2026-09-27</p></details>
+</article>
+<article class="project" data-category="Jev Trading" data-markets="[&quot;Crypto &amp; DeFi&quot;]" data-modes="[&quot;paper&quot;, &quot;live&quot;]" data-search="Jev Trades Jev-powered crypto dashboard combining live market data, multi-timeframe indicators, portfolio decisions, and deterministic risk rules. Jev Trading crypto cex jev paper-trading bybit risk-controls experimental Python">
+  <p class="project-category">Jev Trading</p>
+  <h3><a href="https://github.com/zadescoxp/Jev-Trades">Jev Trades<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Jev-powered crypto dashboard combining live market data, multi-timeframe indicators, portfolio decisions, and deterministic risk rules.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">Paper</span><span class="tag">Live</span><span class="tag">Community</span><span class="tag">Experimental</span></div>
+<details class="project-details"><summary>Access &amp; license</summary><p>Paper trading is the default. Optional Bybit testnet or live execution requires explicit configuration; application code controls sizing and TP/SL behavior.</p><p><a href="https://github.com/zadescoxp/Jev-Trades/blob/master/LICENSE">Apache-2.0 license source</a> · Reviewed 2026-09-27</p></details>
+</article>
+<article class="project" data-category="Jev Trading" data-markets="[&quot;Crypto &amp; DeFi&quot;]" data-modes="[&quot;dry-run&quot;, &quot;live&quot;]" data-search="jev-trade Hyperliquid trading experiment where Jev chooses buy, sell, or hold for isolated crypto asset sleeves. Jev Trading crypto hyperliquid perpetuals jev hyperliquid perpetuals experimental TypeScript">
+  <p class="project-category">Jev Trading</p>
+  <h3><a href="https://github.com/aowang-ai/jev-trade">jev-trade<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Hyperliquid trading experiment where Jev chooses buy, sell, or hold for isolated crypto asset sleeves.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">Dry-run</span><span class="tag">Live</span><span class="tag">Community</span><span class="tag">Experimental</span></div>
+<details class="project-details"><summary>Access &amp; license</summary><p>Defaults to a mock model and dry-run simulation. Testnet or mainnet orders require wallet keys; start with dry-run and testnet modes.</p><p><a href="https://github.com/aowang-ai/jev-trade/blob/main/LICENSE">MIT license source</a> · Reviewed 2026-09-27</p></details>
+</article>
+<article class="project" data-category="Jev Trading" data-markets="[&quot;Crypto &amp; DeFi&quot;]" data-modes="[&quot;dry-run&quot;, &quot;live&quot;]" data-search="jev-trader Jev market-making experiment that chooses a buy or sell quote from the Kuru MON-USDC order book on each Monad block. Jev Trading crypto defi jev market-making monad kuru experimental TypeScript">
+  <p class="project-category">Jev Trading</p>
+  <h3><a href="https://github.com/jarrodwatts/jev-trader">jev-trader<span aria-hidden="true"> ↗</span></a></h3>
+  <p class="project-description">Jev market-making experiment that chooses a buy or sell quote from the Kuru MON-USDC order book on each Monad block.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">Dry-run</span><span class="tag">Live</span><span class="tag">Community</span><span class="tag">Experimental</span></div>
+<details class="project-details"><summary>Access &amp; license</summary><p>Defaults to a mock model and dry-run simulated fills. Jev requires a TypeSafe API key; live orders require a private key and carry execution and smart-contract risk.</p><p><a href="https://github.com/jarrodwatts/jev-trader/blob/main/LICENSE">MIT license source</a> · Reviewed 2026-09-27</p></details>
+</article>
 <article class="project" data-category="Prediction Markets" data-markets="[&quot;Prediction markets&quot;]" data-modes="[]" data-search="Kalshi Regulated US prediction market with API access. Prediction Markets prediction-markets kalshi regulated api ">
   <p class="project-category">Prediction Markets</p>
   <h3><a href="https://kalshi.com">Kalshi<span aria-hidden="true"> ↗</span></a></h3>
@@ -432,12 +461,12 @@
   <div class="tags" aria-label="Project attributes"><span class="tag">MCP</span><span class="tag">Research</span><span class="tag">Backtest</span><span class="tag">Paper</span><span class="tag">Live</span><span class="tag tag--accent">Official</span></div>
 <details class="project-details"><summary>Access &amp; license</summary><p>Official hosted service. Remote MCP access, datasets, broker connections, and live deployment requirements vary by plan.</p><p>Hosted service · Reviewed 2026-09-27</p></details>
 </article>
-<article class="project" data-category="Trading Agents" data-markets="[&quot;Equities&quot;, &quot;Crypto &amp; DeFi&quot;, &quot;Futures &amp; FX&quot;]" data-modes="[]" data-search="QuantDinger AI quantitative trading platform with backtesting, live trading, market data, and multi-agent research. Trading Agents crypto stocks forex quant-trading backtesting live-trading multi-agent Python">
-  <p class="project-category">Trading Agents</p>
+<article class="project" data-category="Jev Trading" data-markets="[&quot;Equities&quot;, &quot;Crypto &amp; DeFi&quot;, &quot;Futures &amp; FX&quot;]" data-modes="[&quot;backtest&quot;, &quot;paper&quot;, &quot;live&quot;]" data-search="QuantDinger AI quantitative trading platform with an optional Jev pre-trade decision gate, backtesting, live trading, market data, and multi-agent research. Jev Trading crypto stocks forex jev quant-trading backtesting live-trading multi-agent Python">
+  <p class="project-category">Jev Trading</p>
   <h3><a href="https://github.com/OpenByteInc/QuantDinger">QuantDinger<span aria-hidden="true"> ↗</span></a></h3>
-  <p class="project-description">AI quantitative trading platform with backtesting, live trading, market data, and multi-agent research.</p>
-  <div class="tags" aria-label="Project attributes"><span class="tag tag--muted">Mode not listed</span></div>
-
+  <p class="project-description">AI quantitative trading platform with an optional Jev pre-trade decision gate, backtesting, live trading, market data, and multi-agent research.</p>
+  <div class="tags" aria-label="Project attributes"><span class="tag">Backtest</span><span class="tag">Paper</span><span class="tag">Live</span><span class="tag">Community</span></div>
+<details class="project-details"><summary>Access &amp; license</summary><p>Jev is an optional pre-trade gate. Review fallback behavior and keep paper mode enabled until provider and risk settings are verified.</p><p><a href="https://github.com/OpenByteInc/QuantDinger/blob/main/LICENSE">Apache-2.0 license source</a> · Reviewed 2026-09-27</p></details>
 </article>
 <article class="project" data-category="Research &amp; Backtesting" data-markets="[&quot;Equities&quot;, &quot;Other&quot;]" data-modes="[&quot;research&quot;, &quot;backtest&quot;]" data-search="RD-Agent Automated research and development framework with a Qlib-based quantitative research workflow. Research &amp; Backtesting stocks tradfi research-agent qlib factor-research model-development Python">
   <p class="project-category">Research &amp; Backtesting</p>

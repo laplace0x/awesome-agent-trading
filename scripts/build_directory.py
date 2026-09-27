@@ -40,7 +40,7 @@ def card(p):
 def main():
     parser = argparse.ArgumentParser(); parser.add_argument('--check', action='store_true'); args = parser.parse_args()
     path = ROOT / 'docs/index.html'; text = path.read_text()
-    categories = ['Trading Agents','Broker & Exchange Integrations','MCP Servers & Agent Skills','Prediction Markets','Research & Backtesting','Data, Wallets & Risk Infrastructure']
+    categories = ['Trading Agents','Jev Trading','Broker & Exchange Integrations','MCP Servers & Agent Skills','Prediction Markets','Research & Backtesting','Data, Wallets & Risk Infrastructure']
     assert len({p['url'] for p in DATA}) == len(DATA), 'Duplicate project URLs'
     assert all(p['category'] in categories for p in DATA), 'Unknown category'
     buttons = '<button type="button" class="category active" data-category="" aria-pressed="true">All tools <span>'+str(len(DATA))+'</span></button>\n'
