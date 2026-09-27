@@ -13,6 +13,7 @@ Browse the searchable directory at [laplace0x.github.io/awesome-agent-trading](h
 ## Contents
 
 - [Trading Agents](#trading-agents)
+- [Jev Trading](#jev-trading)
 - [Broker & Exchange Integrations](#broker--exchange-integrations)
 - [MCP Servers & Agent Skills](#mcp-servers--agent-skills)
 - [Prediction Markets](#prediction-markets)
@@ -33,14 +34,12 @@ Agent systems for market analysis, decisions, and execution. Check each project'
 | Project | Description | Language |
 |---------|-------------|----------|
 | [AI-Trader](https://github.com/HKUDS/AI-Trader) | Agent trading platform with experiments and paper-trading workflows | Python |
-| [AI Hedge Fund](https://github.com/virattt/ai-hedge-fund) | Multi-agent stock research and backtesting system; the shipped application does not execute live trades | Python |
 | [openFinclaw](https://github.com/misterGFCo/openFinclaw) | Self-hosted financial OpenClaw with CCXT (Hyperliquid, Binance, OKX, Bybit) | Python |
 | [Nunchi agent-cli](https://github.com/Nunchi-trade/agent-cli) | Strategy orchestration, trading review, and an MCP server | Python |
 | [Senpi Skills](https://github.com/Senpi-ai/senpi-skills) | Hyperliquid trading skills and Hyperfeed trader data | Python |
 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | Personal trading agent with persistent memory, self-evolving skills, context compression | Python |
 | [NoFx](https://github.com/NoFxAiOS/nofx) | LLM trading terminal with a Go runtime enforcing order risk limits | Go |
 | [OpenAlice](https://github.com/TraderAlice/OpenAlice) | AI trading agent covering equities, crypto, commodities, forex, and macro from research to execution and position management | TypeScript |
-| [QuantDinger](https://github.com/OpenByteInc/QuantDinger) | AI quantitative trading platform with backtesting, live trading, market data, and multi-agent research | Python |
 | [CloddsBot](https://github.com/alsk1992/CloddsBot) | Self-hosted AI trading agent across Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, and EVM chains | TypeScript |
 
 ### Emerging execution projects
@@ -49,6 +48,19 @@ Agent systems for market analysis, decisions, and execution. Check each project'
 |---------|---------------|------------------|
 | [OpenTrade](https://github.com/OpenTradeOSS/OpenTrade) | macOS app connecting coding agents to Robinhood MCP; live orders with configurable approvals | Robinhood account; source-available, Elastic-2.0 |
 | [FriesTrader](https://github.com/YizhiSong/FriesTrader) | Experimental two-phase trading template; dry-run by default, opt-in live execution | Robinhood account; MIT; performance not independently verified |
+
+## Jev Trading
+
+Trading systems that use [TypeSafe AI's Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev) for fast typed decisions. This is a new and experimental ecosystem: inclusion documents an implementation, not profitable performance. Prefer dry-run, paper, or testnet modes before connecting credentials or capital.
+
+| Project | Jev's role | Markets and mode |
+|---------|------------|------------------|
+| [jev-trader](https://github.com/jarrodwatts/jev-trader) | Chooses buy or sell from the Kuru order book on each Monad block; deterministic code manages quotes and position caps | MON-USDC; dry-run by default, optional live orders |
+| [jev-trade](https://github.com/aowang-ai/jev-trade) | Chooses buy, sell, or hold for isolated Hyperliquid asset sleeves | Crypto perpetuals; dry-run by default, testnet/mainnet optional |
+| [Jev Trades](https://github.com/zadescoxp/Jev-Trades) | Evaluates multi-timeframe indicators for portfolio decisions while application code enforces sizing and TP/SL rules | Crypto; paper by default, optional Bybit testnet/live execution |
+| [AI Hedge Fund](https://github.com/virattt/ai-hedge-fund) | Optional Jev provider for structured judgments within multi-agent investment mandates | US equities; research and backtesting only |
+| [QuantDinger](https://github.com/OpenByteInc/QuantDinger) | Optional pre-trade Jev decision gate before the platform's execution path | Crypto, equities, and FX; backtest and paper/live workflows |
+| [Jev A-Share Trader](https://github.com/Eric-Zhou-0302/jev-A-share-trader) | Produces evidence-linked Buy/Hold/Sell assessments from technical and market context | China A-shares; research workspace, no broker execution |
 
 ## Broker & Exchange Integrations
 

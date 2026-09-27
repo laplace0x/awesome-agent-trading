@@ -14,6 +14,7 @@
 ## Categories
 
 - Trading Agents: agent decision and execution systems; experimental and source-available projects are labeled.
+- Jev Trading: early trading systems using TypeSafe AI's Jev for typed market and pre-trade decisions; inclusion does not establish profitability.
 - Broker & Exchange Integrations: official broker and quant-platform MCP services, including Alpaca, Interactive Brokers, QuantConnect, and Robinhood.
 - MCP Servers & Agent Skills: tool integrations and skills for supported clients, including Injective, deBridge, and OpenClaw.
 - Prediction Markets: Polymarket, Kalshi, multi-venue agents, CLIs, SDKs, and simulation tools.

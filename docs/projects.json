@@ -92,8 +92,8 @@
   {
     "name": "QuantDinger",
     "url": "https://github.com/OpenByteInc/QuantDinger",
-    "category": "Trading Agents",
-    "description": "AI quantitative trading platform with backtesting, live trading, market data, and multi-agent research.",
+    "category": "Jev Trading",
+    "description": "AI quantitative trading platform with an optional Jev pre-trade decision gate, backtesting, live trading, market data, and multi-agent research.",
     "language": "Python",
     "markets": [
       "crypto",
@@ -101,10 +101,25 @@
       "forex"
     ],
     "tags": [
+      "jev",
       "quant-trading",
       "backtesting",
       "live-trading",
       "multi-agent"
+    ],
+    "modes": [
+      "backtest",
+      "paper",
+      "live"
+    ],
+    "origin": "community",
+    "license": "Apache-2.0",
+    "license_source": "https://github.com/OpenByteInc/QuantDinger/blob/main/LICENSE",
+    "notes": "Jev is an optional pre-trade gate. Review fallback behavior and keep paper mode enabled until provider and risk settings are verified.",
+    "last_verified": "2026-09-27",
+    "verification": "upstream-documentation",
+    "sources": [
+      "https://github.com/OpenByteInc/QuantDinger"
     ]
   },
   {
@@ -729,13 +744,14 @@
   {
     "name": "AI Hedge Fund",
     "url": "https://github.com/virattt/ai-hedge-fund",
-    "category": "Trading Agents",
-    "description": "Multi-agent stock research and backtesting system modeled on several investing styles.",
+    "category": "Jev Trading",
+    "description": "Multi-agent stock research and backtesting system with an optional Jev provider for structured investment judgments.",
     "language": "Python",
     "markets": [
       "us-equities"
     ],
     "tags": [
+      "jev",
       "multi-agent",
       "stock-analysis",
       "portfolio",
@@ -748,7 +764,7 @@
     "origin": "community",
     "license": "MIT",
     "license_source": "https://github.com/virattt/ai-hedge-fund/blob/main/LICENSE",
-    "notes": "The shipped application does not execute live trades. Some data and model providers require API keys or paid access.",
+    "notes": "The shipped application does not execute live trades. Jev is optional and requires a TypeSafe API key; some data and model providers require paid access.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
     "sources": [
@@ -1009,6 +1025,128 @@
     "verification": "upstream-documentation",
     "sources": [
       "https://developers.binance.com/en/docs/products/agentic-wallet/welcome"
+    ]
+  },
+  {
+    "name": "jev-trader",
+    "url": "https://github.com/jarrodwatts/jev-trader",
+    "category": "Jev Trading",
+    "description": "Jev market-making experiment that chooses a buy or sell quote from the Kuru MON-USDC order book on each Monad block.",
+    "language": "TypeScript",
+    "markets": [
+      "crypto",
+      "defi"
+    ],
+    "tags": [
+      "jev",
+      "market-making",
+      "monad",
+      "kuru",
+      "experimental"
+    ],
+    "modes": [
+      "dry-run",
+      "live"
+    ],
+    "origin": "community",
+    "license": "MIT",
+    "license_source": "https://github.com/jarrodwatts/jev-trader/blob/main/LICENSE",
+    "notes": "Defaults to a mock model and dry-run simulated fills. Jev requires a TypeSafe API key; live orders require a private key and carry execution and smart-contract risk.",
+    "last_verified": "2026-09-27",
+    "verification": "upstream-documentation",
+    "sources": [
+      "https://github.com/jarrodwatts/jev-trader"
+    ]
+  },
+  {
+    "name": "jev-trade",
+    "url": "https://github.com/aowang-ai/jev-trade",
+    "category": "Jev Trading",
+    "description": "Hyperliquid trading experiment where Jev chooses buy, sell, or hold for isolated crypto asset sleeves.",
+    "language": "TypeScript",
+    "markets": [
+      "crypto",
+      "hyperliquid",
+      "perpetuals"
+    ],
+    "tags": [
+      "jev",
+      "hyperliquid",
+      "perpetuals",
+      "experimental"
+    ],
+    "modes": [
+      "dry-run",
+      "live"
+    ],
+    "origin": "community",
+    "license": "MIT",
+    "license_source": "https://github.com/aowang-ai/jev-trade/blob/main/LICENSE",
+    "notes": "Defaults to a mock model and dry-run simulation. Testnet or mainnet orders require wallet keys; start with dry-run and testnet modes.",
+    "last_verified": "2026-09-27",
+    "verification": "upstream-documentation",
+    "sources": [
+      "https://github.com/aowang-ai/jev-trade"
+    ]
+  },
+  {
+    "name": "Jev Trades",
+    "url": "https://github.com/zadescoxp/Jev-Trades",
+    "category": "Jev Trading",
+    "description": "Jev-powered crypto dashboard combining live market data, multi-timeframe indicators, portfolio decisions, and deterministic risk rules.",
+    "language": "Python",
+    "markets": [
+      "crypto",
+      "cex"
+    ],
+    "tags": [
+      "jev",
+      "paper-trading",
+      "bybit",
+      "risk-controls",
+      "experimental"
+    ],
+    "modes": [
+      "paper",
+      "live"
+    ],
+    "origin": "community",
+    "license": "Apache-2.0",
+    "license_source": "https://github.com/zadescoxp/Jev-Trades/blob/master/LICENSE",
+    "notes": "Paper trading is the default. Optional Bybit testnet or live execution requires explicit configuration; application code controls sizing and TP/SL behavior.",
+    "last_verified": "2026-09-27",
+    "verification": "upstream-documentation",
+    "sources": [
+      "https://github.com/zadescoxp/Jev-Trades"
+    ]
+  },
+  {
+    "name": "Jev A-Share Trader",
+    "url": "https://github.com/Eric-Zhou-0302/jev-A-share-trader",
+    "category": "Jev Trading",
+    "description": "Jev-powered technical-analysis workspace for China A-shares with market scans and evidence-linked Buy, Hold, or Sell assessments.",
+    "language": "Python",
+    "markets": [
+      "stocks"
+    ],
+    "tags": [
+      "jev",
+      "china-a-shares",
+      "technical-analysis",
+      "research",
+      "experimental"
+    ],
+    "modes": [
+      "research"
+    ],
+    "origin": "community",
+    "license": "MIT",
+    "license_source": "https://github.com/Eric-Zhou-0302/jev-A-share-trader/blob/main/LICENSE",
+    "notes": "Research workspace using AKShare or Tushare data; it does not connect to a broker or place orders.",
+    "last_verified": "2026-09-27",
+    "verification": "upstream-documentation",
+    "sources": [
+      "https://github.com/Eric-Zhou-0302/jev-A-share-trader"
     ]
   }
 ]
