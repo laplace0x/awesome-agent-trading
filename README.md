@@ -33,6 +33,7 @@ Agent systems for market analysis, decisions, and execution. Check each project'
 | Project | Description | Language |
 |---------|-------------|----------|
 | [AI-Trader](https://github.com/HKUDS/AI-Trader) | Agent trading platform with experiments and paper-trading workflows | Python |
+| [AI Hedge Fund](https://github.com/virattt/ai-hedge-fund) | Multi-agent stock research and backtesting system; the shipped application does not execute live trades | Python |
 | [openFinclaw](https://github.com/misterGFCo/openFinclaw) | Self-hosted financial OpenClaw with CCXT (Hyperliquid, Binance, OKX, Bybit) | Python |
 | [Nunchi agent-cli](https://github.com/Nunchi-trade/agent-cli) | Strategy orchestration, trading review, and an MCP server | Python |
 | [Senpi Skills](https://github.com/Senpi-ai/senpi-skills) | Hyperliquid trading skills and Hyperfeed trader data | Python |
@@ -56,6 +57,8 @@ Agent systems for market analysis, decisions, and execution. Check each project'
 | Integration | Capabilities and modes | Access |
 |-------------|------------------------|--------|
 | [Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server) | Stocks, ETFs, crypto, and options tools; paper default, explicit live setting | Official, MIT; account/API credentials and data entitlements |
+| [Interactive Brokers MCP](https://brokerage.ibkr.com/en/trading/ai-integrations.php) | Hosted account, portfolio, risk, market-data, and trade-instruction tools with user review before submission | Official hosted service; eligible IBKR account and regional availability required |
+| [QuantConnect MCP & Agents](https://www.quantconnect.com/docs/v2/ai-assistance/mcp-server) | Create and update projects, run backtests and optimizations, and deploy algorithms | Official service; remote MCP access and live deployment requirements vary by plan |
 | [Robinhood Agentic Trading](https://robinhood.com/us/en/support/articles/agentic-trading-overview/) | Hosted MCP for portfolio research and orders in a dedicated Agentic account | Official hosted service; eligible account required; read access is broader than trading access |
 
 ### DEX & On-Chain Trading
@@ -107,6 +110,8 @@ Model Context Protocol servers that provide trading capabilities to AI agents.
 | [fintool](https://github.com/second-state/fintool) | Rust CLI tools for agentic trading across Hyperliquid, Binance, Coinbase, OKX, Polymarket, and market intelligence | CLI / MCP |
 | [TradeMemory Protocol](https://github.com/mnemox-ai/tradememory-protocol) | Decision audit trail and persistent memory for AI trading agents with outcome-weighted recall and MCP tools | MCP |
 | [Simmer SDK](https://github.com/SpartanLabsXyz/simmer-sdk) | Prediction market harness for AI agents with skills, MCP server, and Python SDK | MCP / SDK |
+| [Injective MCP Server](https://github.com/InjectiveLabs/mcp-server) | Official Injective server for market and account data, spot and perpetuals trading, transfers, bridging, and EVM calls | MCP |
+| [deBridge Agent Skills](https://github.com/debridge-finance/debridge-skills) | Official cross-chain bridge, swap, transfer, preflight, execution, and monitoring tools | Skills / MCP |
 
 <a id="openclaw-trading-skills"></a>
 
@@ -148,6 +153,7 @@ Prediction market platforms accessible to AI agents.
 | [Kalshi](https://kalshi.com) | Off-chain | API | Regulated US prediction market |
 | [TurbineFi](https://turbinefi.com) | Off-chain | Web app | Build, backtest, and deploy automated strategies for Kalshi and Polymarket |
 | [Kalshi Trading Bot CLI](https://github.com/OctagonAI/kalshi-trading-bot-cli) | Off-chain | API + CLI | AI-native Kalshi trading CLI with probability estimates, order book edge, Kelly sizing, and risk gates |
+| [PolyBot](https://github.com/cryptuon/polybot) | Multi-venue | API + MCP | Self-hosted Polymarket, Kalshi, Opinion, and Binance agent; paper/shadow default with approval-gated live trading |
 
 ### Official CLI
 
@@ -166,7 +172,8 @@ Research and simulation are distinct from broker execution. Traditional ML/RL an
 | [TradingAgents-Crypto](https://github.com/auronsun/TradingAgents-crypto) | Crypto-focused fork of TradingAgents with CoinGecko integration | Python |
 | [AI-CryptoTrader](https://github.com/N00Bception/AI-CryptoTrader) | Ensemble ML methods for crypto trading decisions | Python |
 | [Intelligent Trading Bot](https://github.com/asavinov/intelligent-trading-bot) | ML-based automated trading with feature engineering | Python |
-| [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | Deep RL framework for automated trading (crypto + tradfi) | Python |
+| [FinRL-X](https://github.com/AI4Finance-Foundation/FinRL-Trading) | AI-native quantitative research and trading infrastructure from the FinRL team | Python |
+| [RD-Agent](https://github.com/microsoft/RD-Agent) | Automated research and development framework with a Qlib-based quantitative research workflow | Python |
 | [OpenTrader](https://github.com/Open-Trader/opentrader) | Open-source crypto trading bot with DCA & GRID strategies, UI | TypeScript |
 | [moss-trade-bot-skills](https://github.com/moss-site/moss-trade-bot-skills) | Natural-language strategy generation and local Hyperliquid perps backtesting skills | Python |
 | [SmartMoney-Cub](https://github.com/myc0576/SmartMoney-Cub) | A local-first, agent-agnostic trading journal and review harness providing read-only deterministic replay, evidence packs, and explicit human review gates for offline benchmarking without broker connectivity. | Python |
@@ -175,12 +182,15 @@ Research and simulation are distinct from broker execution. Traditional ML/RL an
 |---------|--------------|------------------|
 | [Dexter](https://github.com/virattt/dexter) | Financial research, tool use, and evaluation; no trading execution | MIT declared in README; no standalone root license found; data/model services may cost extra |
 | [Lumibot](https://github.com/Lumiwealth/lumibot) | Backtesting, paper trading, and live broker execution; Python runtime | GPL-3.0; broker and data-provider requirements vary |
+| [AgenticTrading](https://github.com/Open-Finance-Lab/AgenticTrading) | Experimental LLM-agent lab with backtests, paper workflows, traces, and optional guarded broker execution | Source-available, OpenMDW-1.0; experimental |
 
 ## Data, Wallets & Risk Infrastructure
 
 ### Wallet and action toolkits
 
 [Coinbase AgentKit](https://github.com/coinbase/agentkit) provides wallets and on-chain actions for agents (Apache-2.0). It supplies execution tools rather than a trading strategy.
+
+[Binance Agentic Wallet](https://developers.binance.com/en/docs/products/agentic-wallet/welcome) is an official MPC-based agent wallet with scoped permissions, daily limits, high-risk confirmations, and auditable activity. It supports swaps, limit orders, transfers, and prediction-market actions through Binance Agent Skills.
 
 ### General agent runtimes
 
