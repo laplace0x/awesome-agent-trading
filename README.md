@@ -8,6 +8,8 @@ Use the categories below to distinguish research, backtesting, paper trading, an
 
 Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md). Machine-readable resources: [llms.txt](llms.txt) and [data/projects.json](data/projects.json).
 
+Browse the searchable directory at [laplace0x.github.io/awesome-agent-trading](https://laplace0x.github.io/awesome-agent-trading/).
+
 ## Contents
 
 - [Trading Agents](#trading-agents)
