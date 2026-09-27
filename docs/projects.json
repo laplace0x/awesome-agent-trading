@@ -481,6 +481,39 @@
     ]
   },
   {
+    "name": "x402-ping",
+    "url": "https://github.com/filip-study/x402-ping",
+    "category": "Data, Wallets & Risk Infrastructure",
+    "description": "Live Base USDC exact-x402 smoke/interop ping ($0.05 /premium) with free discovery; tip/unlock buyer path.",
+    "language": "TypeScript",
+    "markets": [
+      "crypto",
+      "agent-commerce"
+    ],
+    "tags": [
+      "payments",
+      "micropayments",
+      "x402",
+      "base",
+      "usdc",
+      "smoke-test"
+    ],
+    "modes": [
+      "live"
+    ],
+    "origin": "community",
+    "license": "MIT",
+    "license_source": "https://github.com/filip-study/x402-ping/blob/main/LICENSE",
+    "notes": "Operator-submitted live service (COI). Worker https://x402-ping.palmbeachpete.workers.dev settles 0.05 USDC on Base to 0xbAd41cF0f0d5442f9A53630F8081BFd257DA019b. Useful as a cheap buyer-path fixture, not a trading strategy.",
+    "last_verified": "2026-09-27",
+    "verification": "upstream-documentation",
+    "sources": [
+      "https://github.com/filip-study/x402-ping",
+      "https://x402-ping.palmbeachpete.workers.dev",
+      "https://filip-study.github.io/x402-ping/"
+    ]
+  },
+  {
     "name": "Alpaca MCP Server",
     "url": "https://github.com/alpacahq/alpaca-mcp-server",
     "category": "Broker & Exchange Integrations",

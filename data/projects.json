@@ -5,8 +5,17 @@
     "category": "Data, Wallets & Risk Infrastructure",
     "description": "Open-source AI agent platform with skill system, cron jobs, and multi-channel output.",
     "language": "Node.js",
-    "markets": ["crypto", "defi", "tradfi"],
-    "tags": ["ai-agent", "agent-framework", "skills", "automation"]
+    "markets": [
+      "crypto",
+      "defi",
+      "tradfi"
+    ],
+    "tags": [
+      "ai-agent",
+      "agent-framework",
+      "skills",
+      "automation"
+    ]
   },
   {
     "name": "TradingAgents",
@@ -14,8 +23,16 @@
     "category": "Research & Backtesting",
     "description": "Multi-agent LLM financial trading framework for stock analysis and portfolio management.",
     "language": "Python",
-    "markets": ["stocks", "tradfi"],
-    "tags": ["multi-agent", "llm", "stock-analysis", "portfolio-management"]
+    "markets": [
+      "stocks",
+      "tradfi"
+    ],
+    "tags": [
+      "multi-agent",
+      "llm",
+      "stock-analysis",
+      "portfolio-management"
+    ]
   },
   {
     "name": "AI-Trader",
@@ -23,8 +40,16 @@
     "category": "Trading Agents",
     "description": "Agent trading platform with experiments and paper-trading workflows.",
     "language": "Python",
-    "markets": ["stocks", "tradfi", "crypto"],
-    "tags": ["ai-trading", "agent-native", "automation"]
+    "markets": [
+      "stocks",
+      "tradfi",
+      "crypto"
+    ],
+    "tags": [
+      "ai-trading",
+      "agent-native",
+      "automation"
+    ]
   },
   {
     "name": "Vibe-Trading",
@@ -32,8 +57,17 @@
     "category": "Trading Agents",
     "description": "Personal trading agent with persistent memory, self-evolving skills, and context compression.",
     "language": "Python",
-    "markets": ["stocks", "crypto", "tradfi"],
-    "tags": ["personal-agent", "memory", "self-evolving", "llm"]
+    "markets": [
+      "stocks",
+      "crypto",
+      "tradfi"
+    ],
+    "tags": [
+      "personal-agent",
+      "memory",
+      "self-evolving",
+      "llm"
+    ]
   },
   {
     "name": "OpenAlice",
@@ -41,8 +75,19 @@
     "category": "Trading Agents",
     "description": "AI trading agent covering equities, crypto, commodities, forex, and macro from research to execution and position management.",
     "language": "TypeScript",
-    "markets": ["stocks", "crypto", "commodities", "forex", "macro"],
-    "tags": ["ai-trading-agent", "research", "execution", "position-management"]
+    "markets": [
+      "stocks",
+      "crypto",
+      "commodities",
+      "forex",
+      "macro"
+    ],
+    "tags": [
+      "ai-trading-agent",
+      "research",
+      "execution",
+      "position-management"
+    ]
   },
   {
     "name": "QuantDinger",
@@ -50,16 +95,32 @@
     "category": "Jev Trading",
     "description": "AI quantitative trading platform with an optional Jev pre-trade decision gate, backtesting, live trading, market data, and multi-agent research.",
     "language": "Python",
-    "markets": ["crypto", "stocks", "forex"],
-    "tags": ["jev", "quant-trading", "backtesting", "live-trading", "multi-agent"],
-    "modes": ["backtest", "paper", "live"],
+    "markets": [
+      "crypto",
+      "stocks",
+      "forex"
+    ],
+    "tags": [
+      "jev",
+      "quant-trading",
+      "backtesting",
+      "live-trading",
+      "multi-agent"
+    ],
+    "modes": [
+      "backtest",
+      "paper",
+      "live"
+    ],
     "origin": "community",
     "license": "Apache-2.0",
     "license_source": "https://github.com/OpenByteInc/QuantDinger/blob/main/LICENSE",
     "notes": "Jev is an optional pre-trade gate. Review fallback behavior and keep paper mode enabled until provider and risk settings are verified.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/OpenByteInc/QuantDinger"]
+    "sources": [
+      "https://github.com/OpenByteInc/QuantDinger"
+    ]
   },
   {
     "name": "CloddsBot",
@@ -67,8 +128,19 @@
     "category": "Trading Agents",
     "description": "Self-hosted AI trading agent across Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, and EVM chains.",
     "language": "TypeScript",
-    "markets": ["prediction-markets", "crypto", "defi", "cex"],
-    "tags": ["self-hosted", "polymarket", "kalshi", "hyperliquid", "binance"]
+    "markets": [
+      "prediction-markets",
+      "crypto",
+      "defi",
+      "cex"
+    ],
+    "tags": [
+      "self-hosted",
+      "polymarket",
+      "kalshi",
+      "hyperliquid",
+      "binance"
+    ]
   },
   {
     "name": "Hummingbot",
@@ -76,8 +148,16 @@
     "category": "Research & Backtesting",
     "description": "Open-source crypto market making and trading bot framework.",
     "language": "Python",
-    "markets": ["crypto", "cex", "defi"],
-    "tags": ["market-making", "trading-bot", "crypto"]
+    "markets": [
+      "crypto",
+      "cex",
+      "defi"
+    ],
+    "tags": [
+      "market-making",
+      "trading-bot",
+      "crypto"
+    ]
   },
   {
     "name": "Freqtrade",
@@ -85,8 +165,15 @@
     "category": "Research & Backtesting",
     "description": "Open-source crypto trading bot with strategy optimization.",
     "language": "Python",
-    "markets": ["crypto", "cex"],
-    "tags": ["trading-bot", "strategy-optimization", "backtesting"]
+    "markets": [
+      "crypto",
+      "cex"
+    ],
+    "tags": [
+      "trading-bot",
+      "strategy-optimization",
+      "backtesting"
+    ]
   },
   {
     "name": "FinRL-X",
@@ -94,16 +181,32 @@
     "category": "Research & Backtesting",
     "description": "AI-native quantitative research and trading infrastructure from the FinRL team.",
     "language": "Python",
-    "markets": ["crypto", "tradfi", "stocks"],
-    "tags": ["quant-research", "automated-trading", "reinforcement-learning", "finance"],
-    "modes": ["research", "backtest", "paper", "live"],
+    "markets": [
+      "crypto",
+      "tradfi",
+      "stocks"
+    ],
+    "tags": [
+      "quant-research",
+      "automated-trading",
+      "reinforcement-learning",
+      "finance"
+    ],
+    "modes": [
+      "research",
+      "backtest",
+      "paper",
+      "live"
+    ],
     "origin": "community",
     "license": "Apache-2.0",
     "license_source": "https://github.com/AI4Finance-Foundation/FinRL-Trading/blob/main/LICENSE",
     "notes": "The FinRL team recommends this newer project to new users; execution and data-provider requirements vary by workflow.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/AI4Finance-Foundation/FinRL-Trading"]
+    "sources": [
+      "https://github.com/AI4Finance-Foundation/FinRL-Trading"
+    ]
   },
   {
     "name": "Hyperliquid Trading",
@@ -111,8 +214,17 @@
     "category": "MCP Servers & Agent Skills",
     "description": "Secure Hyperliquid perpetuals trading skill via gateway API with risk enforcement.",
     "language": null,
-    "markets": ["crypto", "perpetuals", "hyperliquid"],
-    "tags": ["openclaw", "hyperliquid", "perps", "risk-management"]
+    "markets": [
+      "crypto",
+      "perpetuals",
+      "hyperliquid"
+    ],
+    "tags": [
+      "openclaw",
+      "hyperliquid",
+      "perps",
+      "risk-management"
+    ]
   },
   {
     "name": "perp-cli",
@@ -120,8 +232,17 @@
     "category": "MCP Servers & Agent Skills",
     "description": "Multi-DEX perpetuals CLI and MCP server for Hyperliquid, Pacifica, and Lighter.",
     "language": null,
-    "markets": ["crypto", "perpetuals", "defi"],
-    "tags": ["mcp", "cli", "hyperliquid", "perps"]
+    "markets": [
+      "crypto",
+      "perpetuals",
+      "defi"
+    ],
+    "tags": [
+      "mcp",
+      "cli",
+      "hyperliquid",
+      "perps"
+    ]
   },
   {
     "name": "Polymarket",
@@ -129,8 +250,14 @@
     "category": "Prediction Markets",
     "description": "Prediction market platform on Polygon with CLOB API access.",
     "language": null,
-    "markets": ["prediction-markets"],
-    "tags": ["polymarket", "clob", "polygon"]
+    "markets": [
+      "prediction-markets"
+    ],
+    "tags": [
+      "polymarket",
+      "clob",
+      "polygon"
+    ]
   },
   {
     "name": "Kalshi",
@@ -138,8 +265,14 @@
     "category": "Prediction Markets",
     "description": "Regulated US prediction market with API access.",
     "language": null,
-    "markets": ["prediction-markets"],
-    "tags": ["kalshi", "regulated", "api"]
+    "markets": [
+      "prediction-markets"
+    ],
+    "tags": [
+      "kalshi",
+      "regulated",
+      "api"
+    ]
   },
   {
     "name": "Kalshi Trading Bot CLI",
@@ -147,8 +280,16 @@
     "category": "Prediction Markets",
     "description": "AI-native Kalshi trading CLI with probability estimates, order book edge, Kelly sizing, and risk gates.",
     "language": "TypeScript",
-    "markets": ["prediction-markets", "kalshi"],
-    "tags": ["cli", "kelly-sizing", "risk-gates", "ai-trading"]
+    "markets": [
+      "prediction-markets",
+      "kalshi"
+    ],
+    "tags": [
+      "cli",
+      "kelly-sizing",
+      "risk-gates",
+      "ai-trading"
+    ]
   },
   {
     "name": "hyperliquid-mcp",
@@ -156,8 +297,17 @@
     "category": "MCP Servers & Agent Skills",
     "description": "Hyperliquid MCP server for orders, positions, market data, bracket orders, and agent mode.",
     "language": null,
-    "markets": ["crypto", "hyperliquid", "perpetuals"],
-    "tags": ["mcp", "model-context-protocol", "hyperliquid", "orders"]
+    "markets": [
+      "crypto",
+      "hyperliquid",
+      "perpetuals"
+    ],
+    "tags": [
+      "mcp",
+      "model-context-protocol",
+      "hyperliquid",
+      "orders"
+    ]
   },
   {
     "name": "CoinGecko MCP",
@@ -165,8 +315,15 @@
     "category": "MCP Servers & Agent Skills",
     "description": "Official CoinGecko MCP server for cryptocurrency price and market data.",
     "language": null,
-    "markets": ["crypto"],
-    "tags": ["mcp", "market-data", "coingecko", "prices"]
+    "markets": [
+      "crypto"
+    ],
+    "tags": [
+      "mcp",
+      "market-data",
+      "coingecko",
+      "prices"
+    ]
   },
   {
     "name": "Binance MCP",
@@ -174,8 +331,15 @@
     "category": "MCP Servers & Agent Skills",
     "description": "Unofficial Binance MCP server for trading AI agents.",
     "language": null,
-    "markets": ["crypto", "cex"],
-    "tags": ["mcp", "binance", "trading-api"]
+    "markets": [
+      "crypto",
+      "cex"
+    ],
+    "tags": [
+      "mcp",
+      "binance",
+      "trading-api"
+    ]
   },
   {
     "name": "polymarket-mcp-server",
@@ -183,8 +347,16 @@
     "category": "MCP Servers & Agent Skills",
     "description": "Polymarket MCP server with trading, market discovery, monitoring, and safety tools.",
     "language": "Python",
-    "markets": ["prediction-markets", "polymarket"],
-    "tags": ["mcp", "polymarket", "market-discovery", "safety"]
+    "markets": [
+      "prediction-markets",
+      "polymarket"
+    ],
+    "tags": [
+      "mcp",
+      "polymarket",
+      "market-discovery",
+      "safety"
+    ]
   },
   {
     "name": "fintool",
@@ -192,8 +364,18 @@
     "category": "MCP Servers & Agent Skills",
     "description": "Rust CLI tools for agentic trading across Hyperliquid, Binance, Coinbase, OKX, Polymarket, and market intelligence.",
     "language": "Rust",
-    "markets": ["crypto", "stocks", "commodities", "prediction-markets"],
-    "tags": ["cli", "mcp", "market-intelligence", "agentic-trading"]
+    "markets": [
+      "crypto",
+      "stocks",
+      "commodities",
+      "prediction-markets"
+    ],
+    "tags": [
+      "cli",
+      "mcp",
+      "market-intelligence",
+      "agentic-trading"
+    ]
   },
   {
     "name": "TradeMemory Protocol",
@@ -201,8 +383,17 @@
     "category": "MCP Servers & Agent Skills",
     "description": "Decision audit trail and persistent memory for AI trading agents with outcome-weighted recall and MCP tools.",
     "language": "Python",
-    "markets": ["crypto", "tradfi", "prediction-markets"],
-    "tags": ["mcp", "memory", "audit-trail", "risk-management"]
+    "markets": [
+      "crypto",
+      "tradfi",
+      "prediction-markets"
+    ],
+    "tags": [
+      "mcp",
+      "memory",
+      "audit-trail",
+      "risk-management"
+    ]
   },
   {
     "name": "Simmer SDK",
@@ -210,8 +401,15 @@
     "category": "MCP Servers & Agent Skills",
     "description": "Prediction market harness for AI agents with skills, MCP server, and Python SDK.",
     "language": "Python",
-    "markets": ["prediction-markets"],
-    "tags": ["mcp", "sdk", "prediction-market", "agent-harness"]
+    "markets": [
+      "prediction-markets"
+    ],
+    "tags": [
+      "mcp",
+      "sdk",
+      "prediction-market",
+      "agent-harness"
+    ]
   },
   {
     "name": "Hyperliquid API",
@@ -219,8 +417,17 @@
     "category": "Data, Wallets & Risk Infrastructure",
     "description": "Perpetuals market data, order book, funding, open interest, and user state APIs.",
     "language": null,
-    "markets": ["crypto", "hyperliquid", "perpetuals"],
-    "tags": ["market-data", "rest-api", "websocket", "perps"]
+    "markets": [
+      "crypto",
+      "hyperliquid",
+      "perpetuals"
+    ],
+    "tags": [
+      "market-data",
+      "rest-api",
+      "websocket",
+      "perps"
+    ]
   },
   {
     "name": "DeFiLlama",
@@ -228,8 +435,16 @@
     "category": "Data, Wallets & Risk Infrastructure",
     "description": "DeFi TVL, protocol revenue, and yield data.",
     "language": null,
-    "markets": ["crypto", "defi"],
-    "tags": ["market-data", "defi", "tvl", "yield"]
+    "markets": [
+      "crypto",
+      "defi"
+    ],
+    "tags": [
+      "market-data",
+      "defi",
+      "tvl",
+      "yield"
+    ]
   },
   {
     "name": "ERC-8004",
@@ -237,8 +452,16 @@
     "category": "Data, Wallets & Risk Infrastructure",
     "description": "On-chain agent identity and verifiable reputation standard.",
     "language": null,
-    "markets": ["crypto", "defi"],
-    "tags": ["agent-identity", "reputation", "on-chain", "trust"]
+    "markets": [
+      "crypto",
+      "defi"
+    ],
+    "tags": [
+      "agent-identity",
+      "reputation",
+      "on-chain",
+      "trust"
+    ]
   },
   {
     "name": "x402",
@@ -246,8 +469,49 @@
     "category": "Data, Wallets & Risk Infrastructure",
     "description": "HTTP micropayments protocol for pay-per-query signal APIs and agent commerce.",
     "language": null,
-    "markets": ["crypto", "agent-commerce"],
-    "tags": ["payments", "micropayments", "agent-commerce", "signals"]
+    "markets": [
+      "crypto",
+      "agent-commerce"
+    ],
+    "tags": [
+      "payments",
+      "micropayments",
+      "agent-commerce",
+      "signals"
+    ]
+  },
+  {
+    "name": "x402-ping",
+    "url": "https://github.com/filip-study/x402-ping",
+    "category": "Data, Wallets & Risk Infrastructure",
+    "description": "Live Base USDC exact-x402 smoke/interop ping ($0.05 /premium) with free discovery; tip/unlock buyer path.",
+    "language": "TypeScript",
+    "markets": [
+      "crypto",
+      "agent-commerce"
+    ],
+    "tags": [
+      "payments",
+      "micropayments",
+      "x402",
+      "base",
+      "usdc",
+      "smoke-test"
+    ],
+    "modes": [
+      "live"
+    ],
+    "origin": "community",
+    "license": "MIT",
+    "license_source": "https://github.com/filip-study/x402-ping/blob/main/LICENSE",
+    "notes": "Operator-submitted live service (COI). Worker https://x402-ping.palmbeachpete.workers.dev settles 0.05 USDC on Base to 0xbAd41cF0f0d5442f9A53630F8081BFd257DA019b. Useful as a cheap buyer-path fixture, not a trading strategy.",
+    "last_verified": "2026-09-27",
+    "verification": "upstream-documentation",
+    "sources": [
+      "https://github.com/filip-study/x402-ping",
+      "https://x402-ping.palmbeachpete.workers.dev",
+      "https://filip-study.github.io/x402-ping/"
+    ]
   },
   {
     "name": "Alpaca MCP Server",
@@ -255,16 +519,29 @@
     "category": "Broker & Exchange Integrations",
     "description": "Official MCP server for stock, ETF, crypto, and options tools; paper trading by default with an explicit live setting.",
     "language": "Python",
-    "markets": ["us-equities", "options", "crypto"],
-    "tags": ["mcp", "broker", "official"],
-    "modes": ["paper", "live"],
+    "markets": [
+      "us-equities",
+      "options",
+      "crypto"
+    ],
+    "tags": [
+      "mcp",
+      "broker",
+      "official"
+    ],
+    "modes": [
+      "paper",
+      "live"
+    ],
     "origin": "official",
     "license": "MIT",
     "license_source": "https://github.com/alpacahq/alpaca-mcp-server/blob/main/LICENSE",
     "notes": "Requires an eligible Alpaca account and API credentials; market data entitlements vary.",
     "last_verified": "2026-09-12",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/alpacahq/alpaca-mcp-server"]
+    "sources": [
+      "https://github.com/alpacahq/alpaca-mcp-server"
+    ]
   },
   {
     "name": "Alpaca Skills",
@@ -272,16 +549,30 @@
     "category": "MCP Servers & Agent Skills",
     "description": "Official agent skills for backtesting, paper trading, and Broker API order, reconciliation, and account workflows.",
     "language": "Python",
-    "markets": ["us-equities", "options", "crypto"],
-    "tags": ["skills", "broker", "official"],
-    "modes": ["backtest", "paper", "live"],
+    "markets": [
+      "us-equities",
+      "options",
+      "crypto"
+    ],
+    "tags": [
+      "skills",
+      "broker",
+      "official"
+    ],
+    "modes": [
+      "backtest",
+      "paper",
+      "live"
+    ],
     "origin": "official",
     "license": "Apache-2.0",
     "license_source": "https://github.com/alpacahq/alpaca-skills/blob/main/LICENSE",
     "notes": "Individual skills have different credential and account requirements; not limited to OpenClaw.",
     "last_verified": "2026-09-12",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/alpacahq/alpaca-skills"]
+    "sources": [
+      "https://github.com/alpacahq/alpaca-skills"
+    ]
   },
   {
     "name": "Robinhood Agentic Trading",
@@ -289,16 +580,28 @@
     "category": "Broker & Exchange Integrations",
     "description": "Official hosted MCP integration for portfolio research and order execution in a dedicated Agentic account.",
     "language": null,
-    "markets": ["us-equities"],
-    "tags": ["mcp", "broker", "hosted", "official"],
-    "modes": ["research", "live"],
+    "markets": [
+      "us-equities"
+    ],
+    "tags": [
+      "mcp",
+      "broker",
+      "hosted",
+      "official"
+    ],
+    "modes": [
+      "research",
+      "live"
+    ],
     "origin": "official",
     "license": null,
     "license_source": null,
     "notes": "Hosted service, not an open-source server. Eligibility and supported products depend on the account; read access extends beyond the tradable Agentic account.",
     "last_verified": "2026-09-12",
     "verification": "upstream-documentation",
-    "sources": ["https://robinhood.com/us/en/support/articles/agentic-trading-overview/"]
+    "sources": [
+      "https://robinhood.com/us/en/support/articles/agentic-trading-overview/"
+    ]
   },
   {
     "name": "OpenTrade",
@@ -306,16 +609,26 @@
     "category": "Trading Agents",
     "description": "macOS trading app for coding agents using Robinhood MCP, with order approvals, monitors, and schedules.",
     "language": "TypeScript",
-    "markets": ["us-equities"],
-    "tags": ["agent-runtime", "robinhood", "source-available"],
-    "modes": ["live"],
+    "markets": [
+      "us-equities"
+    ],
+    "tags": [
+      "agent-runtime",
+      "robinhood",
+      "source-available"
+    ],
+    "modes": [
+      "live"
+    ],
     "origin": "community",
     "license": "Elastic-2.0",
     "license_source": "https://github.com/OpenTradeOSS/OpenTrade/blob/main/LICENSE",
     "notes": "Source-available under Elastic License 2.0, not an open-source license; requires an eligible Robinhood account.",
     "last_verified": "2026-09-12",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/OpenTradeOSS/OpenTrade"]
+    "sources": [
+      "https://github.com/OpenTradeOSS/OpenTrade"
+    ]
   },
   {
     "name": "FriesTrader",
@@ -323,16 +636,27 @@
     "category": "Trading Agents",
     "description": "Experimental Robinhood MCP trading template with separate research and execution phases, dry-run defaults, and Python risk calculations.",
     "language": "Python",
-    "markets": ["us-equities"],
-    "tags": ["experimental", "robinhood", "risk-controls"],
-    "modes": ["dry-run", "live"],
+    "markets": [
+      "us-equities"
+    ],
+    "tags": [
+      "experimental",
+      "robinhood",
+      "risk-controls"
+    ],
+    "modes": [
+      "dry-run",
+      "live"
+    ],
     "origin": "community",
     "license": "MIT",
     "license_source": "https://github.com/YizhiSong/FriesTrader/blob/main/LICENSE",
     "notes": "Live deployment is an author claim, not independently verified here; documented constraints are not a security audit.",
     "last_verified": "2026-09-12",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/YizhiSong/FriesTrader"]
+    "sources": [
+      "https://github.com/YizhiSong/FriesTrader"
+    ]
   },
   {
     "name": "Polymarket CLI",
@@ -340,16 +664,27 @@
     "category": "Prediction Markets",
     "description": "Official experimental Rust CLI for market discovery, JSON output, orders, positions, and on-chain operations.",
     "language": "Rust",
-    "markets": ["prediction-markets"],
-    "tags": ["cli", "official", "experimental"],
-    "modes": ["research", "live"],
+    "markets": [
+      "prediction-markets"
+    ],
+    "tags": [
+      "cli",
+      "official",
+      "experimental"
+    ],
+    "modes": [
+      "research",
+      "live"
+    ],
     "origin": "official",
     "license": "MIT",
     "license_source": "https://github.com/Polymarket/polymarket-cli/blob/main/Cargo.toml",
     "notes": "MIT is declared in Cargo.toml; no standalone root license file was found. Trading requires wallet credentials and venue eligibility.",
     "last_verified": "2026-09-12",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/Polymarket/polymarket-cli"]
+    "sources": [
+      "https://github.com/Polymarket/polymarket-cli"
+    ]
   },
   {
     "name": "Coinbase AgentKit",
@@ -357,16 +692,27 @@
     "category": "Data, Wallets & Risk Infrastructure",
     "description": "Wallet and on-chain action toolkit for agents; execution infrastructure rather than a trading strategy.",
     "language": "TypeScript",
-    "markets": ["crypto", "defi"],
-    "tags": ["wallet", "sdk", "official"],
-    "modes": ["live"],
+    "markets": [
+      "crypto",
+      "defi"
+    ],
+    "tags": [
+      "wallet",
+      "sdk",
+      "official"
+    ],
+    "modes": [
+      "live"
+    ],
     "origin": "official",
     "license": "Apache-2.0",
     "license_source": "https://github.com/coinbase/agentkit/blob/main/LICENSE.md",
     "notes": "Chain, wallet, and action support depends on the selected integration.",
     "last_verified": "2026-09-12",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/coinbase/agentkit"]
+    "sources": [
+      "https://github.com/coinbase/agentkit"
+    ]
   },
   {
     "name": "Dexter",
@@ -374,16 +720,26 @@
     "category": "Research & Backtesting",
     "description": "Financial research agent with task planning, market-data tools, self-checks, and question-answer evaluation.",
     "language": "TypeScript",
-    "markets": ["us-equities"],
-    "tags": ["research", "financial-data", "evals"],
-    "modes": ["research"],
+    "markets": [
+      "us-equities"
+    ],
+    "tags": [
+      "research",
+      "financial-data",
+      "evals"
+    ],
+    "modes": [
+      "research"
+    ],
     "origin": "community",
     "license": "MIT",
     "license_source": "https://github.com/virattt/dexter#-license",
     "notes": "README declares MIT; no standalone root license file was found. Research tool, not an order-execution system; data/model services may cost extra.",
     "last_verified": "2026-09-12",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/virattt/dexter"]
+    "sources": [
+      "https://github.com/virattt/dexter"
+    ]
   },
   {
     "name": "Lumibot",
@@ -391,16 +747,32 @@
     "category": "Research & Backtesting",
     "description": "Python strategy and AI-agent runtime connecting historical backtests, paper trading, and broker execution.",
     "language": "Python",
-    "markets": ["us-equities", "options", "crypto", "futures", "forex"],
-    "tags": ["backtesting", "broker", "runtime"],
-    "modes": ["backtest", "paper", "live"],
+    "markets": [
+      "us-equities",
+      "options",
+      "crypto",
+      "futures",
+      "forex"
+    ],
+    "tags": [
+      "backtesting",
+      "broker",
+      "runtime"
+    ],
+    "modes": [
+      "backtest",
+      "paper",
+      "live"
+    ],
     "origin": "community",
     "license": "GPL-3.0",
     "license_source": "https://github.com/Lumiwealth/lumibot/blob/master/LICENSE",
     "notes": "Supported assets, data access, and execution modes depend on the broker and data provider.",
     "last_verified": "2026-09-12",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/Lumiwealth/lumibot"]
+    "sources": [
+      "https://github.com/Lumiwealth/lumibot"
+    ]
   },
   {
     "name": "AI Hedge Fund",
@@ -408,16 +780,29 @@
     "category": "Jev Trading",
     "description": "Multi-agent stock research and backtesting system with an optional Jev provider for structured investment judgments.",
     "language": "Python",
-    "markets": ["us-equities"],
-    "tags": ["jev", "multi-agent", "stock-analysis", "portfolio", "experimental"],
-    "modes": ["research", "backtest"],
+    "markets": [
+      "us-equities"
+    ],
+    "tags": [
+      "jev",
+      "multi-agent",
+      "stock-analysis",
+      "portfolio",
+      "experimental"
+    ],
+    "modes": [
+      "research",
+      "backtest"
+    ],
     "origin": "community",
     "license": "MIT",
     "license_source": "https://github.com/virattt/ai-hedge-fund/blob/main/LICENSE",
     "notes": "The shipped application does not execute live trades. Jev is optional and requires a TypeSafe API key; some data and model providers require paid access.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/virattt/ai-hedge-fund"]
+    "sources": [
+      "https://github.com/virattt/ai-hedge-fund"
+    ]
   },
   {
     "name": "Interactive Brokers MCP",
@@ -425,16 +810,31 @@
     "category": "Broker & Exchange Integrations",
     "description": "Official hosted MCP tools for account, portfolio, risk, market data, and trade instructions with user review before submission.",
     "language": null,
-    "markets": ["us-equities", "options", "futures", "forex"],
-    "tags": ["mcp", "broker", "hosted", "official"],
-    "modes": ["research", "live"],
+    "markets": [
+      "us-equities",
+      "options",
+      "futures",
+      "forex"
+    ],
+    "tags": [
+      "mcp",
+      "broker",
+      "hosted",
+      "official"
+    ],
+    "modes": [
+      "research",
+      "live"
+    ],
     "origin": "official",
     "license": null,
     "license_source": null,
     "notes": "Hosted service, not an open-source server. Requires an eligible IBKR account; availability and supported products vary by region.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://brokerage.ibkr.com/en/trading/ai-integrations.php"]
+    "sources": [
+      "https://brokerage.ibkr.com/en/trading/ai-integrations.php"
+    ]
   },
   {
     "name": "QuantConnect MCP & Agents",
@@ -442,16 +842,34 @@
     "category": "Broker & Exchange Integrations",
     "description": "Official MCP service for creating projects, running backtests and optimizations, and deploying trading algorithms.",
     "language": null,
-    "markets": ["us-equities", "options", "crypto", "futures", "forex"],
-    "tags": ["mcp", "quant-platform", "broker-integrations", "official"],
-    "modes": ["research", "backtest", "paper", "live"],
+    "markets": [
+      "us-equities",
+      "options",
+      "crypto",
+      "futures",
+      "forex"
+    ],
+    "tags": [
+      "mcp",
+      "quant-platform",
+      "broker-integrations",
+      "official"
+    ],
+    "modes": [
+      "research",
+      "backtest",
+      "paper",
+      "live"
+    ],
     "origin": "official",
     "license": null,
     "license_source": null,
     "notes": "Official hosted service. Remote MCP access, datasets, broker connections, and live deployment requirements vary by plan.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://www.quantconnect.com/docs/v2/ai-assistance/mcp-server"]
+    "sources": [
+      "https://www.quantconnect.com/docs/v2/ai-assistance/mcp-server"
+    ]
   },
   {
     "name": "Injective MCP Server",
@@ -459,16 +877,32 @@
     "category": "MCP Servers & Agent Skills",
     "description": "Official Injective MCP server for market and account data, spot and perpetuals trading, transfers, bridging, and EVM calls.",
     "language": "TypeScript",
-    "markets": ["crypto", "defi", "perpetuals"],
-    "tags": ["mcp", "injective", "spot", "perpetuals", "official"],
-    "modes": ["research", "live"],
+    "markets": [
+      "crypto",
+      "defi",
+      "perpetuals"
+    ],
+    "tags": [
+      "mcp",
+      "injective",
+      "spot",
+      "perpetuals",
+      "official"
+    ],
+    "modes": [
+      "research",
+      "live"
+    ],
     "origin": "official",
     "license": null,
     "license_source": null,
     "notes": "Local wallet and live transaction tools require careful credential handling. No license was identified in repository metadata during review.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/InjectiveLabs/mcp-server", "https://injective.com/blog/introducing-the-injective-mcp-server"]
+    "sources": [
+      "https://github.com/InjectiveLabs/mcp-server",
+      "https://injective.com/blog/introducing-the-injective-mcp-server"
+    ]
   },
   {
     "name": "deBridge Agent Skills",
@@ -476,16 +910,31 @@
     "category": "MCP Servers & Agent Skills",
     "description": "Official cross-chain agent skills and MCP tools for bridge, swap, transfer, preflight, execution, and monitoring workflows.",
     "language": "TypeScript",
-    "markets": ["crypto", "defi"],
-    "tags": ["skills", "mcp", "cross-chain", "bridge", "official"],
-    "modes": ["research", "live"],
+    "markets": [
+      "crypto",
+      "defi"
+    ],
+    "tags": [
+      "skills",
+      "mcp",
+      "cross-chain",
+      "bridge",
+      "official"
+    ],
+    "modes": [
+      "research",
+      "live"
+    ],
     "origin": "official",
     "license": "MIT",
     "license_source": "https://github.com/debridge-finance/debridge-skills/blob/main/LICENSE",
     "notes": "Live swaps and transfers require wallet signatures, sufficient balances, and supported source and destination chains.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/debridge-finance/debridge-skills", "https://agents.debridge.com/"]
+    "sources": [
+      "https://github.com/debridge-finance/debridge-skills",
+      "https://agents.debridge.com/"
+    ]
   },
   {
     "name": "PolyBot",
@@ -493,16 +942,30 @@
     "category": "Prediction Markets",
     "description": "Self-hosted multi-venue prediction-market agent with a unified API and MCP tools.",
     "language": "Python",
-    "markets": ["prediction-markets", "crypto"],
-    "tags": ["mcp", "polymarket", "kalshi", "opinion", "risk-controls"],
-    "modes": ["paper", "live"],
+    "markets": [
+      "prediction-markets",
+      "crypto"
+    ],
+    "tags": [
+      "mcp",
+      "polymarket",
+      "kalshi",
+      "opinion",
+      "risk-controls"
+    ],
+    "modes": [
+      "paper",
+      "live"
+    ],
     "origin": "community",
     "license": "MIT",
     "license_source": "https://github.com/cryptuon/polybot/blob/main/LICENSE",
     "notes": "Supports Polymarket, Kalshi, Opinion, and Binance. Paper and shadow modes are the defaults; live actions require approval and configured venue credentials.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/cryptuon/polybot"]
+    "sources": [
+      "https://github.com/cryptuon/polybot"
+    ]
   },
   {
     "name": "RD-Agent",
@@ -510,16 +973,29 @@
     "category": "Research & Backtesting",
     "description": "Automated research and development framework with a Qlib-based quantitative research workflow.",
     "language": "Python",
-    "markets": ["stocks", "tradfi"],
-    "tags": ["research-agent", "qlib", "factor-research", "model-development"],
-    "modes": ["research", "backtest"],
+    "markets": [
+      "stocks",
+      "tradfi"
+    ],
+    "tags": [
+      "research-agent",
+      "qlib",
+      "factor-research",
+      "model-development"
+    ],
+    "modes": [
+      "research",
+      "backtest"
+    ],
     "origin": "official",
     "license": "MIT",
     "license_source": "https://github.com/microsoft/RD-Agent/blob/main/LICENSE",
     "notes": "Research automation rather than a broker execution integration; data and model requirements depend on the selected scenario.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/microsoft/RD-Agent"]
+    "sources": [
+      "https://github.com/microsoft/RD-Agent"
+    ]
   },
   {
     "name": "AgenticTrading",
@@ -527,16 +1003,31 @@
     "category": "Research & Backtesting",
     "description": "Experimental lab for LLM trading agents with backtests, paper workflows, traces, evaluation, and optional guarded broker execution.",
     "language": "Python",
-    "markets": ["us-equities"],
-    "tags": ["experimental", "llm-agent", "backtesting", "evaluation", "risk-controls"],
-    "modes": ["research", "backtest", "paper", "live"],
+    "markets": [
+      "us-equities"
+    ],
+    "tags": [
+      "experimental",
+      "llm-agent",
+      "backtesting",
+      "evaluation",
+      "risk-controls"
+    ],
+    "modes": [
+      "research",
+      "backtest",
+      "paper",
+      "live"
+    ],
     "origin": "community",
     "license": "OpenMDW-1.0",
     "license_source": "https://github.com/Open-Finance-Lab/AgenticTrading/blob/main/LICENSE",
     "notes": "Source-available under a non-standard license and experimental. Optional live Robinhood execution is disabled by default and requires explicit configuration.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/Open-Finance-Lab/AgenticTrading"]
+    "sources": [
+      "https://github.com/Open-Finance-Lab/AgenticTrading"
+    ]
   },
   {
     "name": "Binance Agentic Wallet",
@@ -544,16 +1035,30 @@
     "category": "Data, Wallets & Risk Infrastructure",
     "description": "Official MPC-based agent wallet with scoped permissions, daily limits, high-risk confirmations, and auditable activity.",
     "language": null,
-    "markets": ["crypto", "defi", "prediction-markets"],
-    "tags": ["wallet", "mpc", "skills", "risk-controls", "official"],
-    "modes": ["live"],
+    "markets": [
+      "crypto",
+      "defi",
+      "prediction-markets"
+    ],
+    "tags": [
+      "wallet",
+      "mpc",
+      "skills",
+      "risk-controls",
+      "official"
+    ],
+    "modes": [
+      "live"
+    ],
     "origin": "official",
     "license": null,
     "license_source": null,
     "notes": "Hosted product used through Binance Agent Skills. Supported actions, assets, chains, and availability depend on the account and product terms.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://developers.binance.com/en/docs/products/agentic-wallet/welcome"]
+    "sources": [
+      "https://developers.binance.com/en/docs/products/agentic-wallet/welcome"
+    ]
   },
   {
     "name": "jev-trader",
@@ -561,16 +1066,30 @@
     "category": "Jev Trading",
     "description": "Jev market-making experiment that chooses a buy or sell quote from the Kuru MON-USDC order book on each Monad block.",
     "language": "TypeScript",
-    "markets": ["crypto", "defi"],
-    "tags": ["jev", "market-making", "monad", "kuru", "experimental"],
-    "modes": ["dry-run", "live"],
+    "markets": [
+      "crypto",
+      "defi"
+    ],
+    "tags": [
+      "jev",
+      "market-making",
+      "monad",
+      "kuru",
+      "experimental"
+    ],
+    "modes": [
+      "dry-run",
+      "live"
+    ],
     "origin": "community",
     "license": "MIT",
     "license_source": "https://github.com/jarrodwatts/jev-trader/blob/main/LICENSE",
     "notes": "Defaults to a mock model and dry-run simulated fills. Jev requires a TypeSafe API key; live orders require a private key and carry execution and smart-contract risk.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/jarrodwatts/jev-trader"]
+    "sources": [
+      "https://github.com/jarrodwatts/jev-trader"
+    ]
   },
   {
     "name": "jev-trade",
@@ -578,16 +1097,30 @@
     "category": "Jev Trading",
     "description": "Hyperliquid trading experiment where Jev chooses buy, sell, or hold for isolated crypto asset sleeves.",
     "language": "TypeScript",
-    "markets": ["crypto", "hyperliquid", "perpetuals"],
-    "tags": ["jev", "hyperliquid", "perpetuals", "experimental"],
-    "modes": ["dry-run", "live"],
+    "markets": [
+      "crypto",
+      "hyperliquid",
+      "perpetuals"
+    ],
+    "tags": [
+      "jev",
+      "hyperliquid",
+      "perpetuals",
+      "experimental"
+    ],
+    "modes": [
+      "dry-run",
+      "live"
+    ],
     "origin": "community",
     "license": "MIT",
     "license_source": "https://github.com/aowang-ai/jev-trade/blob/main/LICENSE",
     "notes": "Defaults to a mock model and dry-run simulation. Testnet or mainnet orders require wallet keys; start with dry-run and testnet modes.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/aowang-ai/jev-trade"]
+    "sources": [
+      "https://github.com/aowang-ai/jev-trade"
+    ]
   },
   {
     "name": "Jev Trades",
@@ -595,16 +1128,30 @@
     "category": "Jev Trading",
     "description": "Jev-powered crypto dashboard combining live market data, multi-timeframe indicators, portfolio decisions, and deterministic risk rules.",
     "language": "Python",
-    "markets": ["crypto", "cex"],
-    "tags": ["jev", "paper-trading", "bybit", "risk-controls", "experimental"],
-    "modes": ["paper", "live"],
+    "markets": [
+      "crypto",
+      "cex"
+    ],
+    "tags": [
+      "jev",
+      "paper-trading",
+      "bybit",
+      "risk-controls",
+      "experimental"
+    ],
+    "modes": [
+      "paper",
+      "live"
+    ],
     "origin": "community",
     "license": "Apache-2.0",
     "license_source": "https://github.com/zadescoxp/Jev-Trades/blob/master/LICENSE",
     "notes": "Paper trading is the default. Optional Bybit testnet or live execution requires explicit configuration; application code controls sizing and TP/SL behavior.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/zadescoxp/Jev-Trades"]
+    "sources": [
+      "https://github.com/zadescoxp/Jev-Trades"
+    ]
   },
   {
     "name": "Jev A-Share Trader",
@@ -612,15 +1159,27 @@
     "category": "Jev Trading",
     "description": "Jev-powered technical-analysis workspace for China A-shares with market scans and evidence-linked Buy, Hold, or Sell assessments.",
     "language": "Python",
-    "markets": ["stocks"],
-    "tags": ["jev", "china-a-shares", "technical-analysis", "research", "experimental"],
-    "modes": ["research"],
+    "markets": [
+      "stocks"
+    ],
+    "tags": [
+      "jev",
+      "china-a-shares",
+      "technical-analysis",
+      "research",
+      "experimental"
+    ],
+    "modes": [
+      "research"
+    ],
     "origin": "community",
     "license": "MIT",
     "license_source": "https://github.com/Eric-Zhou-0302/jev-A-share-trader/blob/main/LICENSE",
     "notes": "Research workspace using AKShare or Tushare data; it does not connect to a broker or place orders.",
     "last_verified": "2026-09-27",
     "verification": "upstream-documentation",
-    "sources": ["https://github.com/Eric-Zhou-0302/jev-A-share-trader"]
+    "sources": [
+      "https://github.com/Eric-Zhou-0302/jev-A-share-trader"
+    ]
   }
 ]
