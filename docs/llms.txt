@@ -14,11 +14,11 @@
 ## Categories
 
 - Trading Agents: agent decision and execution systems; experimental and source-available projects are labeled.
-- Broker & Exchange Integrations: official broker MCP services and exchange APIs, including Alpaca and Robinhood.
-- MCP Servers & Agent Skills: tool integrations and skills for supported clients, including OpenClaw.
-- Prediction Markets: Polymarket, Kalshi, CLIs, SDKs, and simulation tools.
-- Research & Backtesting: financial research agents, strategy engines, and backtest/paper/live runtimes.
-- Data, Wallets & Risk Infrastructure: market data, wallets, execution controls, identity, and payments.
+- Broker & Exchange Integrations: official broker and quant-platform MCP services, including Alpaca, Interactive Brokers, QuantConnect, and Robinhood.
+- MCP Servers & Agent Skills: tool integrations and skills for supported clients, including Injective, deBridge, and OpenClaw.
+- Prediction Markets: Polymarket, Kalshi, multi-venue agents, CLIs, SDKs, and simulation tools.
+- Research & Backtesting: financial research agents, automated quantitative R&D, strategy engines, and backtest/paper/live runtimes.
+- Data, Wallets & Risk Infrastructure: market data, MPC agent wallets, execution controls, identity, and payments.
 
 ## Starting points
 
