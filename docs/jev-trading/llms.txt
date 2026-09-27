@@ -1,0 +1,27 @@
+# Jev Trading Projects
+
+Canonical guide: https://laplace0x.github.io/awesome-agent-trading/jev-trading/
+Directory: https://laplace0x.github.io/awesome-agent-trading/
+Project data: https://laplace0x.github.io/awesome-agent-trading/projects.json
+Last reviewed: 2026-09-27
+
+## Definition
+
+Jev trading uses TypeSafe AI's Jev System One model for bounded, typed decisions inside a trading application. Examples include buy/sell/hold, quote direction, technical assessment, and pre-trade approval. Jev returns decisions; it is not a broker, exchange, wallet, strategy, or risk engine.
+
+The surrounding application remains responsible for market data, feature calculation, arithmetic, position sizing, exposure limits, credentials, order construction, approvals, and execution.
+
+## Reviewed projects
+
+- jev-trader — Kuru MON-USDC market-making experiment on Monad; Jev chooses buy or sell each block; dry-run by default; optional live; MIT.
+- jev-trade — Hyperliquid perpetuals experiment; Jev chooses buy, sell, or hold per asset sleeve; dry-run by default; optional testnet or live; MIT.
+- Jev Trades — crypto dashboard using multi-timeframe indicators; paper trading by default; optional Bybit testnet or live execution; Apache-2.0.
+- AI Hedge Fund — multi-agent US-equity research and backtesting with an optional Jev provider; no live execution in the shipped application; MIT.
+- QuantDinger — multi-market platform with an optional Jev pre-trade decision gate; backtest, paper, and live workflows; Apache-2.0.
+- Jev A-Share Trader — China A-share technical-analysis workspace; research only; no broker execution; MIT.
+
+## Evidence boundary
+
+These are early public implementations. Inclusion documents capabilities found in upstream source and documentation. It does not verify profitability, safety, model accuracy, latency claims, or returns after fees, spread, slippage, and market impact.
+
+Primary model source: https://typesafe.ai/blog/introducing-system-one-models-and-jev

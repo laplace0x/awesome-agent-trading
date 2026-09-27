@@ -5,6 +5,8 @@
 ## Resources
 
 - Searchable directory: https://laplace0x.github.io/awesome-agent-trading/
+- Jev trading guide: https://laplace0x.github.io/awesome-agent-trading/jev-trading/
+- Jev trading machine-readable summary: https://laplace0x.github.io/awesome-agent-trading/jev-trading/llms.txt
 - Downloadable directory data: https://laplace0x.github.io/awesome-agent-trading/projects.json
 - Repository: https://github.com/laplace0x/awesome-agent-trading
 - Full directory: https://github.com/laplace0x/awesome-agent-trading/blob/main/README.md
@@ -15,6 +17,12 @@
 
 - Trading Agents: agent decision and execution systems; experimental and source-available projects are labeled.
 - Jev Trading: early trading systems using TypeSafe AI's Jev for typed market and pre-trade decisions; inclusion does not establish profitability.
+
+## Jev Trading Summary
+
+Jev is TypeSafe AI's first public System One model. It returns typed probabilistic decisions rather than free-form trading instructions. Listed implementations use it for bounded choices such as buy/sell/hold, quote direction, technical assessments, or pre-trade gates. The surrounding application remains responsible for market data, arithmetic, sizing, risk limits, credentials, and order execution.
+
+The directory currently compares jev-trader, jev-trade, Jev Trades, Jev A-Share Trader, AI Hedge Fund, and QuantDinger. Dedicated projects default to dry-run, paper, or research modes where documented. No listing establishes profitable performance.
 - Broker & Exchange Integrations: official broker and quant-platform MCP services, including Alpaca, Interactive Brokers, QuantConnect, and Robinhood.
 - MCP Servers & Agent Skills: tool integrations and skills for supported clients, including Injective, deBridge, and OpenClaw.
 - Prediction Markets: Polymarket, Kalshi, multi-venue agents, CLIs, SDKs, and simulation tools.
