@@ -286,6 +286,7 @@ No. Entries describe tools and documented capabilities. Backtests, author-report
 - [BankrBot Discord](https://bankr.bot) — Trading skill community
 - [r/algotrading](https://reddit.com/r/algotrading) — Algorithmic trading on Reddit
 - [ERC-8004 Discord](https://8004.org) — Agent identity standard
+- [HostDeFi](https://hostdefi.com) - Multi-chain swap aggregator front-end (Jupiter on Solana, KyberSwap on 7 EVM chains) with a built-in free A+–F token-safety scanner.
 
 ---
 
