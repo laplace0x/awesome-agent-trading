@@ -48,6 +48,7 @@ Agent systems for market analysis, decisions, and execution. Check each project'
 |---------|---------------|------------------|
 | [OpenTrade](https://github.com/OpenTradeOSS/OpenTrade) | macOS app connecting coding agents to Robinhood MCP; live orders with configurable approvals | Robinhood account; source-available, Elastic-2.0 |
 | [FriesTrader](https://github.com/YizhiSong/FriesTrader) | Experimental two-phase trading template; dry-run by default, opt-in live execution | Robinhood account; MIT; performance not independently verified |
+| [fly.ai](https://www.flyaiworld.com) | Hosted service: a simulated fruit-fly connectome (166,700 neurons) decides trades for per-NFT wallets on Robinhood Chain (stock tokens and crypto); live execution, every trade and refused trade logged publicly per wallet | Trader Fly NFT + holding 200k FLYAI; brain simulator MIT ([flybrain](https://github.com/alextitonis/fly.ai)), trading engine closed-source; performance not independently verified |
 
 ## Jev Trading
 
