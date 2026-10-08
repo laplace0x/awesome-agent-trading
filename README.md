@@ -70,6 +70,7 @@ Decentralized exchanges and on-chain trading infrastructure for agents.
 | [Uniswap](https://uniswap.org) | Spot + Aggregator | Multi-chain | Smart contract |
 | [1inch](https://1inch.io) | Aggregator | Multi-chain | API |
 | [Avantis](https://avantisfi.com) | Leveraged Trading | Base | Up to 50x leverage |
+| [HostDeFi](https://hostdefi.com) | Aggregator + Token-Safety Scanner | Solana, Ethereum, Base, Arbitrum, Optimism, Polygon, BNB Chain, Avalanche | Keyless REST API + hosted MCP endpoint |
 
 ### CEX & Off-Chain Trading
 
@@ -284,7 +285,6 @@ No. Entries describe tools and documented capabilities. Backtests, author-report
 - [BankrBot Discord](https://bankr.bot) — Trading skill community
 - [r/algotrading](https://reddit.com/r/algotrading) — Algorithmic trading on Reddit
 - [ERC-8004 Discord](https://8004.org) — Agent identity standard
-- [HostDeFi](https://hostdefi.com) - Multi-chain swap aggregator front-end (Jupiter on Solana, KyberSwap on 7 EVM chains) with a built-in free A+–F token-safety scanner.
 
 ---
 
