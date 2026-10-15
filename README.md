@@ -130,6 +130,7 @@ Model Context Protocol servers that provide trading capabilities to AI agents.
 | [Simmer SDK](https://github.com/SpartanLabsXyz/simmer-sdk) | Prediction market harness for AI agents with skills, MCP server, and Python SDK | MCP / SDK |
 | [Injective MCP Server](https://github.com/InjectiveLabs/mcp-server) | Official Injective server for market and account data, spot and perpetuals trading, transfers, bridging, and EVM calls | MCP |
 | [deBridge Agent Skills](https://github.com/debridge-finance/debridge-skills) | Official cross-chain bridge, swap, transfer, preflight, execution, and monitoring tools | Skills / MCP |
+| [Financial Evidence](https://github.com/beepboop2025/financial-evidence-skills) | Author-maintained, read-only funding, bank and indicative BTC liquidity research; [persistent sessions and source-status streaming](https://beepboop2025.github.io/financial-evidence-skills/agents/low-latency.md); free anonymous public reads; [MIT](https://github.com/beepboop2025/financial-evidence-skills/blob/main/LICENSE) software, underlying data rights vary; no live quotes or execution | MCP / SDK |
 
 <a id="openclaw-trading-skills"></a>
 
