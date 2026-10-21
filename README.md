@@ -303,6 +303,7 @@ No. Entries describe tools and documented capabilities. Backtests, author-report
 - [TradingAgents: Multi-Agents LLM Financial Trading Framework](https://arxiv.org/abs/2412.20138) — First submitted in 2024; multi-agent financial analysis and trading research.
 - [R&D-Agent-Quant](https://arxiv.org/abs/2505.15155) — 2025; data-centric factor and model optimization.
 - [LiveTradeBench](https://arxiv.org/abs/2511.03628) — 2025; real-time market evaluation of trading agents. Real-time evaluation does not itself imply real-money execution.
+- [AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search](https://arxiv.org/abs/2608.11250) — 2026; agentic alpha-factor research. A fresh-context reviewer re-runs each candidate and can veto it. Author-reported: 17 of 60 WorldQuant BRAIN submissions rated SPECTACULAR.
 
 ## Tutorials & Guides
 
