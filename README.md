@@ -120,6 +120,7 @@ Model Context Protocol servers that provide trading capabilities to AI agents.
 | [CCXT MCP](https://github.com/ccxt/ccxt/wiki/MCP) | Official multi-exchange market data and account tools; sandbox/demo and live orders explicitly enabled; [MIT](https://github.com/ccxt/ccxt/blob/master/LICENSE.txt); credentials and venue support vary | MCP |
 | [hyperliquid-mcp](https://github.com/edkdev/hyperliquid-mcp) | Full Hyperliquid trading: orders, positions, market data, bracket orders, agent mode | MCP |
 | [HYPERLIQUID-MCP-Server](https://github.com/6rz6/HYPERLIQUID-MCP-Server) | 8 trading tools for Hyperliquid: market data, account management, analytics | MCP |
+| [Femtos MCP](https://femtos.xyz/mcp) | Hosted Hyperliquid data server (registry name `xyz.femtos/mcp`) over HyperCore, HyperEVM and Elysium: markets, candles, trades, order books, liquidations, holders, launches, token security, cross-layer bridges and wallets; research only, read-only on market and chain data, no order placement or trading-account access; API key required, free tier, agents can sign up over the API; proprietary hosted service | MCP |
 | [perp-cli](https://github.com/hypurrquant/perp-cli) | Multi-DEX perps CLI + MCP (Hyperliquid, Pacifica, Lighter), market data and execution tools | MCP |
 | [CoinGecko MCP](https://docs.coingecko.com/docs/mcp-server) | Official CoinGecko MCP server for price & market data | MCP |
 | [CoinGeckoMCP](https://github.com/BlindVibeDev/CoinGeckoMCP) | Node.js CoinGecko MCP with free + Pro API support | MCP |
