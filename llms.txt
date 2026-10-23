@@ -24,15 +24,19 @@ Jev is TypeSafe AI's first public System One model. It returns typed probabilist
 
 The directory currently compares jev-trader, jev-trade, Jev Trades, Jev A-Share Trader, AI Hedge Fund, and QuantDinger. Dedicated projects default to dry-run, paper, or research modes where documented. No listing establishes profitable performance.
 - Broker & Exchange Integrations: official broker and quant-platform MCP services, including Alpaca MCP/CLI, Interactive Brokers, QuantConnect, Robinhood, OKX Agent Trade Kit, Bybit Trading MCP, and Binance official hosted MCP.
-- MCP Servers & Agent Skills: tool integrations and skills for supported clients, including official CCXT MCP, Injective, deBridge, and OpenClaw.
+- MCP Servers & Agent Skills: tool integrations and skills for supported clients, including official Massive and Alpha Vantage research-data MCPs, CCXT MCP, Injective, deBridge, and OpenClaw.
 - Prediction Markets: Polymarket, Kalshi, multi-venue agents, CLIs, SDKs, and simulation tools.
-- Research & Backtesting: financial research agents including TradingAgents and OpenBB Agent Rita, automated quantitative R&D, strategy engines, and backtest/paper/live runtimes.
+- Research & Backtesting: financial research agents including TradingAgents, FinRobot and OpenBB Agent Rita; the early-alpha Nautilus Agents policy SDK; automated quantitative R&D, strategy engines, and backtest/paper/live runtimes.
 - Data, Wallets & Risk Infrastructure: market data, MPC agent wallets, execution controls, identity, and payments.
 
 ## Starting points
 
 - Alpaca MCP Server: https://github.com/alpacahq/alpaca-mcp-server
 - Alpaca CLI: https://github.com/alpacahq/cli
+- Massive MCP: https://massive.com/docs/ai-tools/quickstart
+- Alpha Vantage MCP: https://github.com/alphavantage/alpha_vantage_mcp
+- FinRobot: https://github.com/AI4Finance-Foundation/FinRobot
+- Nautilus Agents: https://github.com/nautechsystems/nautilus_agents
 - CCXT MCP: https://github.com/ccxt/ccxt/wiki/MCP
 - OKX Agent Trade Kit: https://github.com/okx/agent-trade-kit
 - Bybit Trading MCP: https://github.com/bybit-exchange/trading-mcp

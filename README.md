@@ -115,6 +115,8 @@ Model Context Protocol servers that provide trading capabilities to AI agents.
 
 | Server | Description | Protocol |
 |--------|-------------|----------|
+| [Massive MCP](https://massive.com/docs/ai-tools/quickstart) | Official market-data research tools; hosted OAuth or self-hosted MCP; no order execution; account/data-plan entitlements apply; self-hosted server is experimental, [MIT](https://github.com/massive-com/mcp_massive/blob/master/LICENSE), data rights separate | MCP |
+| [Alpha Vantage MCP](https://github.com/alphavantage/alpha_vantage_mcp) | Official market data, fundamentals and technical indicators for research; hosted or local MCP, no order execution; API key required, limited free access and premium/data entitlements; [MIT](https://github.com/alphavantage/alpha_vantage_mcp/blob/main/LICENSE), [data terms](https://www.alphavantage.co/terms_of_service/) separate | MCP |
 | [CCXT MCP](https://github.com/ccxt/ccxt/wiki/MCP) | Official multi-exchange market data and account tools; sandbox/demo and live orders explicitly enabled; [MIT](https://github.com/ccxt/ccxt/blob/master/LICENSE.txt); credentials and venue support vary | MCP |
 | [hyperliquid-mcp](https://github.com/edkdev/hyperliquid-mcp) | Full Hyperliquid trading: orders, positions, market data, bracket orders, agent mode | MCP |
 | [HYPERLIQUID-MCP-Server](https://github.com/6rz6/HYPERLIQUID-MCP-Server) | 8 trading tools for Hyperliquid: market data, account management, analytics | MCP |
@@ -199,6 +201,8 @@ Research and simulation are distinct from broker execution. Traditional ML/RL an
 
 | Project | Modes / role | License / access |
 |---------|--------------|------------------|
+| [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) | Multi-agent equity research, valuation and report generation; V0 educational package, V1 web app and V2 desktop research workflows; no broker execution claimed here | [Apache-2.0](https://github.com/AI4Finance-Foundation/FinRobot/blob/master/LICENSE); model and data-provider credentials/costs vary; V3 remains in development |
+| [Nautilus Agents](https://github.com/nautechsystems/nautilus_agents) | Early-alpha SDK for scoped observations, typed policy proposals and local evidence; currently only ReducePosition proposals; agent has no engine or venue authority | [LGPL-3.0-only](https://github.com/nautechsystems/nautilus_agents/blob/master/LICENSE); no bundled transport; local checks are advisory, not execution authorization |
 | [OpenBB Agent Rita](https://github.com/OpenBB-finance/agent-rita) | Official dashboard-data research copilot with SQL, cited answers, and optional companion MCP; no documented broker execution | [MIT](https://github.com/OpenBB-finance/agent-rita/blob/main/LICENSE); OpenBB Workspace account and LLM provider/local Ollama; data and optional services vary |
 | [Dexter](https://github.com/virattt/dexter) | Financial research, tool use, and evaluation; no trading execution | MIT declared in README; no standalone root license found; data/model services may cost extra |
 | [Lumibot](https://github.com/Lumiwealth/lumibot) | Backtesting, paper trading, and live broker execution; Python runtime | GPL-3.0; broker and data-provider requirements vary |

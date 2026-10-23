@@ -1351,5 +1351,130 @@
       "https://developers.binance.com/en/docs/agent-native/mcp-server/agentic",
       "https://www.binance.com/en/support/announcement/detail/07d45cdd3831498f8a4ff339031a8480"
     ]
+  },
+  {
+    "name": "Massive MCP",
+    "url": "https://massive.com/docs/ai-tools/quickstart",
+    "category": "MCP Servers & Agent Skills",
+    "description": "Official market-data research MCP with hosted OAuth and an experimental self-hosted server; no order execution.",
+    "language": "Python",
+    "markets": [
+      "stocks",
+      "options"
+    ],
+    "tags": [
+      "mcp",
+      "market-data",
+      "hosted",
+      "experimental"
+    ],
+    "origin": "official",
+    "license": "MIT",
+    "license_source": "https://github.com/massive-com/mcp_massive/blob/master/LICENSE",
+    "notes": "Hosted access requires a Massive account and follows asset-class subscription entitlements. Self-hosting requires an API key; its MIT code license does not grant rights to market data. The upstream self-hosted server is experimental.",
+    "sources": [
+      "https://massive.com/docs/ai-tools/quickstart",
+      "https://github.com/massive-com/mcp_massive"
+    ],
+    "modes": [
+      "research"
+    ],
+    "last_verified": "2026-10-23",
+    "verification": "upstream-documentation"
+  },
+  {
+    "name": "Alpha Vantage MCP",
+    "url": "https://github.com/alphavantage/alpha_vantage_mcp",
+    "category": "MCP Servers & Agent Skills",
+    "description": "Official research MCP for market data, fundamentals and technical indicators; hosted and local connections, no order execution.",
+    "language": "Python",
+    "markets": [
+      "stocks",
+      "options",
+      "crypto",
+      "forex",
+      "commodities"
+    ],
+    "tags": [
+      "mcp",
+      "market-data",
+      "hosted"
+    ],
+    "origin": "official",
+    "license": "MIT",
+    "license_source": "https://github.com/alphavantage/alpha_vantage_mcp/blob/main/LICENSE",
+    "notes": "Requires an Alpha Vantage API key, including through hosted OAuth authorization. Free access is limited; premium endpoints and real-time/delayed data may require paid access and separate entitlements. MIT covers server code; data usage follows provider terms.",
+    "sources": [
+      "https://github.com/alphavantage/alpha_vantage_mcp",
+      "https://www.alphavantage.co/premium/",
+      "https://www.alphavantage.co/terms_of_service/"
+    ],
+    "modes": [
+      "research"
+    ],
+    "last_verified": "2026-10-23",
+    "verification": "upstream-documentation"
+  },
+  {
+    "name": "FinRobot",
+    "url": "https://github.com/AI4Finance-Foundation/FinRobot",
+    "category": "Research & Backtesting",
+    "description": "Multi-agent equity research, valuation and report generation with educational, web and desktop research workflows.",
+    "language": "Python",
+    "markets": [
+      "stocks"
+    ],
+    "tags": [
+      "multi-agent",
+      "equity-research",
+      "valuation",
+      "llm"
+    ],
+    "origin": "community",
+    "license": "Apache-2.0",
+    "license_source": "https://github.com/AI4Finance-Foundation/FinRobot/blob/master/LICENSE",
+    "notes": "The pip package installs educational V0; V1 is a self-hosted web application and V2 a desktop research application. V3 is in development. Model and data-provider credentials and fees vary. This listing describes research, not broker execution or independently verified performance.",
+    "sources": [
+      "https://github.com/AI4Finance-Foundation/FinRobot",
+      "https://github.com/AI4Finance-Foundation/FinRobot/tree/master/finrobot_desktop",
+      "https://github.com/AI4Finance-Foundation/FinRobot/tree/master/finrobot_equity"
+    ],
+    "modes": [
+      "research"
+    ],
+    "last_verified": "2026-10-23",
+    "verification": "upstream-documentation"
+  },
+  {
+    "name": "Nautilus Agents",
+    "url": "https://github.com/nautechsystems/nautilus_agents",
+    "category": "Research & Backtesting",
+    "description": "Early-alpha policy SDK for scoped observations, typed ReducePosition proposals, local evidence and advisory policy evaluation.",
+    "language": "Rust",
+    "markets": [
+      "stocks",
+      "crypto",
+      "futures",
+      "forex",
+      "options"
+    ],
+    "tags": [
+      "sdk",
+      "experimental",
+      "risk-controls",
+      "policy-evaluation"
+    ],
+    "origin": "official",
+    "license": "LGPL-3.0-only",
+    "license_source": "https://github.com/nautechsystems/nautilus_agents/blob/master/LICENSE",
+    "notes": "The agent process has no engine or venue authority. Currently only ReducePosition proposals are supported. No transport is bundled; local checks are advisory and do not authorize live execution. Market coverage depends on the surrounding NautilusTrader integration, not this SDK alone.",
+    "sources": [
+      "https://github.com/nautechsystems/nautilus_agents"
+    ],
+    "modes": [
+      "research"
+    ],
+    "last_verified": "2026-10-23",
+    "verification": "upstream-documentation"
   }
 ]
