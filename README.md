@@ -238,6 +238,7 @@ Data sources and APIs for market analysis by agents.
 | [The Graph](https://thegraph.com) | Indexed blockchain data | Yes | GraphQL |
 | [AgentServices](https://agentservices.to) | 54 services: prices, DeFi, onchain, analytics, dispute resolution | Yes (x402 micropayments) | REST + MCP |
 | [Congress Trading Pipeline](https://github.com/seralifatih/congress-trading-pipeline) | US House & Senate STOCK Act trade disclosures (PTRs) | Yes (Apify free credit) | REST |
+| [Equibles](https://equibles.com) | US equities research data: SEC filings, XBRL financial statements, earnings call transcripts, insider and congressional trades, 13F holdings, short interest and prices. Research only, no order execution. Proprietary hosted service ([terms](https://equibles.com/legal/terms)), separate from its AGPL-3.0 open-source core; needs an Equibles account with OAuth sign-in or an API key. Docs: [MCP](https://equibles.com/docs/mcp), [REST](https://equibles.com/docs/api) | Yes (100 requests/day; paid plans from $9.99/mo, [pricing](https://equibles.com/pricing)) | MCP + REST |
 | [Sato Hub](https://satohub.ai) | Onchain-agent tool index (380+) with openness/activity scores, x402 and agent-economy metrics | Yes (free, CC-BY) | REST + MCP |
 
 ### Agent Identity & Trust
