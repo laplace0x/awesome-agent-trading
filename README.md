@@ -92,6 +92,7 @@ Decentralized exchanges and on-chain trading infrastructure for agents.
 | [Uniswap](https://uniswap.org) | Spot + Aggregator | Multi-chain | Smart contract |
 | [1inch](https://1inch.io) | Aggregator | Multi-chain | API |
 | [Avantis](https://avantisfi.com) | Leveraged Trading | Base | Up to 50x leverage |
+| [HostDeFi](https://hostdefi.com) | Aggregator + Token-Safety Scanner | Solana, Ethereum, Base, Arbitrum, Optimism, Polygon, BNB Chain, Avalanche | Keyless REST API + hosted MCP endpoint |
 
 ### CEX & Off-Chain Trading
 
