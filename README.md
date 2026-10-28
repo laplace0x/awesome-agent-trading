@@ -175,6 +175,7 @@ Prediction market platforms accessible to AI agents.
 | [TurbineFi](https://turbinefi.com) | Off-chain | Web app | Build, backtest, and deploy automated strategies for Kalshi and Polymarket |
 | [Kalshi Trading Bot CLI](https://github.com/OctagonAI/kalshi-trading-bot-cli) | Off-chain | API + CLI | AI-native Kalshi trading CLI with probability estimates, order book edge, Kelly sizing, and risk gates |
 | [PolyBot](https://github.com/cryptuon/polybot) | Multi-venue | API + MCP | Self-hosted Polymarket, Kalshi, Opinion, and Binance agent; paper/shadow default with approval-gated live trading |
+| [Lucyd](https://lucyd.trade) | Ethereum Sepolia (testnet) | REST + WebSocket + MCP | Bitcoin Up/Down markets (5m to daily) on a central limit order book; MCP server `npx -y @lucyd/mcp`, read-only without a key |
 
 ### Official CLI
 
