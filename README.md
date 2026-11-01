@@ -92,6 +92,7 @@ Decentralized exchanges and on-chain trading infrastructure for agents.
 | [Uniswap](https://uniswap.org) | Spot + Aggregator | Multi-chain | Smart contract |
 | [1inch](https://1inch.io) | Aggregator | Multi-chain | API |
 | [Avantis](https://avantisfi.com) | Leveraged Trading | Base | Up to 50x leverage |
+| [Trnch](https://trnch.fun) | Memecoin terminal + DEX aggregator | Robinhood Chain (Arbitrum Orbit) | Remote MCP and OpenAPI bot API; keyless rug check; live execution via unsigned tx signed by the user's wallet; 0.5% swap fee |
 
 ### CEX & Off-Chain Trading
 
