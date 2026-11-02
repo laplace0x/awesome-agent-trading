@@ -34,6 +34,7 @@ Agent systems for market analysis, decisions, and execution. Check each project'
 | Project | Description | Language |
 |---------|-------------|----------|
 | [AI-Trader](https://github.com/HKUDS/AI-Trader) | Agent trading platform with experiments and paper-trading workflows | Python |
+| [BetterTradingAgents](https://github.com/kingabzpro/BetterTradingAgents) | Multi-agent stock research, backtesting, and paper trading; [MIT license](https://github.com/kingabzpro/BetterTradingAgents/blob/main/LICENSE); model access required | Python |
 | [openFinclaw](https://github.com/misterGFCo/openFinclaw) | Self-hosted financial OpenClaw with CCXT (Hyperliquid, Binance, OKX, Bybit) | Python |
 | [Nunchi agent-cli](https://github.com/Nunchi-trade/agent-cli) | Strategy orchestration, trading review, and an MCP server | Python |
 | [Senpi Skills](https://github.com/Senpi-ai/senpi-skills) | Hyperliquid trading skills and Hyperfeed trader data | Python |
