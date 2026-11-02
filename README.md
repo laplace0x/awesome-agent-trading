@@ -162,6 +162,7 @@ Skills for compatible agent clients. OpenClaw-specific entries remain labeled by
 | [Smart Trading](https://openclawai.me/trading) | OpenClaw AI | Sub-second Hyperliquid execution with hardcoded risk guardrails |
 | [Whale Wallet Analysis](https://agentskills.so/skills/sanctifiedops-solana-skills-whale-wallet-analysis) | sanctifiedops | Solana whale wallet tracking with cluster detection |
 | [Superior Trade Skills](https://github.com/Superior-Trade/superior-skills) | Superior Trade | Open agent skills and tool schemas for building, backtesting, and deploying Hyperliquid strategies |
+| [Siebly Crypto Exchange API](https://siebly.io/.well-known/agent-skills/siebly-crypto-exchange-api/SKILL.md) | Siebly | Community skill (docs and code patterns) for Node.js and TypeScript REST and WebSocket integrations using Siebly SDKs: Binance, Bybit, OKX, Gate, Bitget, KuCoin, Coinbase, Kraken, HTX; SDKs MIT, license declared in each package |
 
 ## Prediction Markets
 
