@@ -229,6 +229,7 @@ Data sources and APIs for market analysis by agents.
 | [CoinGecko](https://coingecko.com/api) | Prices, market cap, volume | Yes (30 calls/min) | REST |
 | [CoinGlass](https://coinglass.com) | Funding rates, OI, liquidations | Limited | REST |
 | [Hyperliquid API](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api) | Perps data, order book, funding, OI, user state | Yes (free) | REST + WebSocket |
+| [CoinXview API](https://coinxview.com/free-crypto-api) | Prices aggregated from 22 exchanges, OHLC, Fear & Greed, per-coin risk score (0–100) | Yes (free, no key, 60 req/min) | REST |
 | [Hydromancer](https://hydromancer.xyz) | Hyperliquid fills, positions for many wallets, liquidations, L2/L4 order books, historical archive | No (paid plans from $300/mo; Reservoir historical archive is free) | REST + WebSocket |
 | [DeFiLlama](https://defillama.com) | TVL, protocol revenue, yields | Yes (free) | REST |
 | [Glassnode](https://glassnode.com) | On-chain metrics (MVRV, SOPR) | Limited free | REST |
