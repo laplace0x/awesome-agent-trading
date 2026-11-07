@@ -58,6 +58,7 @@ Trading systems that use [TypeSafe AI's Jev](https://typesafe.ai/blog/introducin
 |---------|------------|------------------|
 | [jev-trader](https://github.com/jarrodwatts/jev-trader) | Chooses buy or sell from the Kuru order book on each Monad block; deterministic code manages quotes and position caps | MON-USDC; dry-run by default, optional live orders |
 | [jev-trade](https://github.com/aowang-ai/jev-trade) | Chooses buy, sell, or hold for isolated Hyperliquid asset sleeves | Crypto perpetuals; dry-run by default, testnet/mainnet optional |
+| [FastTrade AI](https://github.com/kingabzpro/FastTrade-AI) | Produces typed BUY/HOLD/SELL preferences from candle context; a deterministic risk engine has the final say | US equities via Alpaca IEX or Yahoo; signal-only, places no orders |
 | [Jev Trades](https://github.com/zadescoxp/Jev-Trades) | Evaluates multi-timeframe indicators for portfolio decisions while application code enforces sizing and TP/SL rules | Crypto; paper by default, optional Bybit testnet/live execution |
 | [AI Hedge Fund](https://github.com/virattt/ai-hedge-fund) | Optional Jev provider for structured judgments within multi-agent investment mandates | US equities; research and backtesting only |
 | [QuantDinger](https://github.com/OpenByteInc/QuantDinger) | Optional pre-trade Jev decision gate before the platform's execution path | Crypto, equities, and FX; backtest and paper/live workflows |
