@@ -632,6 +632,39 @@
     "sources": ["https://github.com/Eric-Zhou-0302/jev-A-share-trader"]
   },
   {
+    "name": "StalkChain Data",
+    "url": "https://github.com/StalkChain/fomo-mcp-api/blob/main/docs/guides/claude-crypto-mcp.md",
+    "category": "MCP Servers & Agent Skills",
+    "description": "Official hosted MCP for on-chain wallet holdings, trader PnL, and Hyperliquid positions and funding.",
+    "language": "TypeScript",
+    "markets": [
+      "crypto",
+      "defi"
+    ],
+    "tags": [
+      "mcp",
+      "wallet-analytics",
+      "hyperliquid",
+      "oauth",
+      "hosted"
+    ],
+    "origin": "official",
+    "license": "Hosted service terms",
+    "license_source": "https://data.stalkchain.com/terms",
+    "notes": "The public directory endpoint at https://data.stalkchain.com/mcp/directory excludes trading tools. OAuth sign-in is required. Some research calls use account credits. Alert creation and deletion change account state. Their tool instructions tell clients to confirm with the user first.",
+    "sources": [
+      "https://github.com/StalkChain/fomo-mcp-api/blob/main/docs/guides/claude-crypto-mcp.md",
+      "https://github.com/StalkChain/fomo-mcp-api/blob/main/docs/guides/hyperliquid-mcp.md",
+      "https://data.stalkchain.com/privacy",
+      "https://data.stalkchain.com/terms"
+    ],
+    "modes": [
+      "research"
+    ],
+    "last_verified": "2026-11-19",
+    "verification": "upstream-documentation"
+  },
+  {
     "name": "CCXT MCP",
     "url": "https://github.com/ccxt/ccxt/tree/master/mcp",
     "category": "MCP Servers & Agent Skills",
