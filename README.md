@@ -133,6 +133,7 @@ Model Context Protocol servers that provide trading capabilities to AI agents.
 | [Injective MCP Server](https://github.com/InjectiveLabs/mcp-server) | Official Injective server for market and account data, spot and perpetuals trading, transfers, bridging, and EVM calls | MCP |
 | [deBridge Agent Skills](https://github.com/debridge-finance/debridge-skills) | Official cross-chain bridge, swap, transfer, preflight, execution, and monitoring tools | Skills / MCP |
 | [Financial Evidence](https://github.com/beepboop2025/financial-evidence-skills) | Author-maintained, read-only funding, bank and indicative BTC liquidity research; [persistent sessions and source-status streaming](https://beepboop2025.github.io/financial-evidence-skills/agents/low-latency.md); free anonymous public reads; [MIT](https://github.com/beepboop2025/financial-evidence-skills/blob/main/LICENSE) software, underlying data rights vary; no live quotes or execution | MCP / SDK |
+| [compi](https://compi.ai) | Hosted remote MCP (OAuth) plus Chrome extension from the compi team that connects your own agent to Hyperliquid and Aster; read tools and one propose tool, with each order sent through compi checked against user set caps, leverage, a daily loss limit and a kill switch before it is signed in the browser with the key compi sets up, which can trade but cannot withdraw; proprietary ([terms](https://compi.ai/terms)); early access for waitlist members; free to connect agents | MCP |
 
 <a id="openclaw-trading-skills"></a>
 
