@@ -133,6 +133,7 @@ Model Context Protocol servers that provide trading capabilities to AI agents.
 | [Injective MCP Server](https://github.com/InjectiveLabs/mcp-server) | Official Injective server for market and account data, spot and perpetuals trading, transfers, bridging, and EVM calls | MCP |
 | [deBridge Agent Skills](https://github.com/debridge-finance/debridge-skills) | Official cross-chain bridge, swap, transfer, preflight, execution, and monitoring tools | Skills / MCP |
 | [Financial Evidence](https://github.com/beepboop2025/financial-evidence-skills) | Author-maintained, read-only funding, bank and indicative BTC liquidity research; [persistent sessions and source-status streaming](https://beepboop2025.github.io/financial-evidence-skills/agents/low-latency.md); free anonymous public reads; [MIT](https://github.com/beepboop2025/financial-evidence-skills/blob/main/LICENSE) software, underlying data rights vary; no live quotes or execution | MCP / SDK |
+| [AlphaSift](https://github.com/ZhuLinsen/alphasift) | Read-only research CLI and local STDIO MCP server for multi-market equity screening, walk-forward K-line pattern replay, and public paper tracking; no brokerage or order execution; [Apache-2.0](https://github.com/ZhuLinsen/alphasift/blob/main/LICENSE), public market-data terms vary | CLI / MCP |
 
 <a id="openclaw-trading-skills"></a>
 
